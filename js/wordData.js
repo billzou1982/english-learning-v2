@@ -1,102 +1,105 @@
 const WordRoots = [
   {
     id: 1,
-    root: "Serendipity",
-    origin: "Daily Vocabulary",
-    meaning: "不期而至的美好",
-    description: "Serendipity 指的是在寻找某样东西时，偶然发现了另一件更有价值或更美好的事物的能力或现象。这个词最早由英国作家 Horace Walpole 在 1754 年创造，灵感来源于童话《锡兰（Serendip）三王子》。在学习中，它提醒我们保持开放的心态，因为伟大的发现往往源于意外。",
+    root: "Commute",
+    origin: "Daily Life / Transportation",
+    meaning: "通勤; 往返上下班",
+    meaning_en: "To travel some distance between one's home and place of work on a regular basis.",
+    description: "这是美国城市生活中最常用的词之一。无论是搭乘地铁、开车还是骑行，只要是家到公司的往返过程都叫 commute。在高频 5000 词中属于核心词汇。",
     examples: [
       {
-        word: "Scientific discovery",
-        meaning: "科学发现",
-        explanation: "许多重大的科学发现，如青霉素的发现，都是 serendipity 的体现。"
+        word: "Long commute",
+        meaning: "漫长的通勤",
+        explanation: "My morning commute takes about 45 minutes by train."
       },
       {
-        word: "Meeting a friend",
-        meaning: "偶遇好友",
-        explanation: "在遥远的异国他乡偶遇老友，真是一种 serendipity。"
+        word: "Commuter train",
+        meaning: "通勤列车",
+        explanation: "The commuter trains are always packed during rush hour."
       },
       {
-        word: "Finding a book",
-        meaning: "发现好书",
-        explanation: "在书店角落偶然翻到一本改变人生的书，是典型的 serendipity。"
+        word: "Telecommute",
+        meaning: "远程办公",
+        explanation: "More people are choosing to telecommute to avoid the daily drive."
       }
     ],
     quiz: {
-      question: "Which situation best describes 'serendipity'?",
+      question: "Which of these is a 'commute'?",
       options: [
-        "Finding money in an old coat while looking for keys",
-        "Setting an alarm to wake up early",
-        "Studying hard to pass an exam",
-        "Ordering a meal from a menu"
+        "A vacation trip to Hawaii",
+        "Going to the grocery store once a week",
+        "Driving from home to the office every Monday-Friday",
+        "Running in the park for exercise"
       ],
-      correctAnswer: 0
+      correctAnswer: 2
     }
   },
   {
     id: 2,
-    root: "Resilient",
-    origin: "Character Traits",
-    meaning: "有韧性的，复原力强的",
-    description: "Resilient 描述的是一种能够迅速从困难、挫折、疾病或不幸中恢复过来的能力。它不仅指物理上的弹性（如橡胶），更常用于形容心理素质。一个 resilient 的人面对逆境时不会轻易崩溃，而是能够从中学习并变得更强大。",
+    root: "Grocery",
+    origin: "Daily Life / Shopping",
+    meaning: "食品杂货; 超市物品",
+    meaning_en: "Items of food in a grocery store or supermarket.",
+    description: "在美国，人们很少说 'go to the market'，更常用 'go grocery shopping'。这个词覆盖了厨房里所有的柴米油盐。",
     examples: [
       {
-        word: "Resilient economy",
-        meaning: "有韧性的经济",
-        explanation: "指经济体在遭受全球危机后能够迅速复苏。"
+        word: "Grocery list",
+        meaning: "购物清单",
+        explanation: "Don't forget to check the fridge before making your grocery list."
       },
       {
-        word: "Emotional resilience",
-        meaning: "情感韧性",
-        explanation: "在面对失去或失败后，能够保持心理健康的特质。"
+        word: "Grocery bags",
+        meaning: "购物袋",
+        explanation: "I prefer using reusable grocery bags to save the environment."
       },
       {
-        word: "Resilient material",
-        meaning: "弹性材料",
-        explanation: "受到压力变形后能恢复原状的物质。"
+        word: "Online grocery",
+        meaning: "线上买菜",
+        explanation: "Since the pandemic, online grocery delivery has become very popular."
       }
     ],
     quiz: {
-      question: "If someone is 'resilient', they...",
+      question: "Where do you go for 'grocery' shopping?",
       options: [
-        "Give up easily",
-        "Recover quickly from difficulties",
-        "Never experience problems",
-        "Are very physically strong"
+        "A bookstore",
+        "A supermarket",
+        "A movie theater",
+        "A hardware store"
       ],
       correctAnswer: 1
     }
   },
   {
     id: 3,
-    root: "Eloquence",
-    origin: "Communication",
-    meaning: "雄辩，口才",
-    description: "Eloquence 指的是流利、有力、且具有说服力的表达能力。它不仅关乎词汇的选择，更关乎表达的情感和逻辑。在演讲或写作中，eloquence 能够深深打动听众，使其产生共鸣或被说服。它是沟通艺术的最高体现之一。",
+    root: "Budget",
+    origin: "Daily Life / Finance",
+    meaning: "预算; 盘算开支",
+    meaning_en: "An estimate of income and expenditure for a set period of time.",
+    description: "无论是个人还是家庭，日常生活中离不开财务规划。'On a budget' 是美国人常用的短语，表示‘预算有限’或‘精打细算’。",
     examples: [
       {
-        word: "Eloquent speaker",
-        meaning: "口才出众的演讲者",
-        explanation: "一位能够用言语激发听众行动的演说家。"
+        word: "On a tight budget",
+        meaning: "预算很紧",
+        explanation: "We're on a tight budget this month, so no eating out."
       },
       {
-        word: "Poetic eloquence",
-        meaning: "诗意的雄辩",
-        explanation: "文学作品中那种华美而富有深意的表达方式。"
+        word: "Budget-friendly",
+        meaning: "价格实惠的",
+        explanation: "This website offers many budget-friendly travel tips."
       },
       {
-        word: "Visual eloquence",
-        meaning: "视觉表现力",
-        explanation: "有时无声的艺术作品也能展现出惊人的叙事能力。"
+        word: "Monthly budget",
+        meaning: "月度预算",
+        explanation: "I use an app to track my monthly budget and expenses."
       }
     ],
     quiz: {
-      question: "What is a key feature of 'eloquence'?",
+      question: "If you are 'on a budget', you are...",
       options: [
-        "Speaking very fast",
-        "Using simple and boring words",
-        "Fluent and persuasive expression",
-        "Being silent during a debate"
+        "Spending money without thinking",
+        "Winning the lottery",
+        "Being careful with how much money you spend",
+        "Buying a very expensive car"
       ],
       correctAnswer: 2
     }

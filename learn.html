@@ -10,8 +10,11 @@
     .learn-container { padding: 48px 0; max-width: 600px; margin: 0 auto; }
     .nav-buttons { display: flex; justify-content: space-between; margin-top: 32px; }
     .detail-section { margin-top: 24px; border-top: 1px solid var(--border); padding-top: 24px; }
-    .example-item { margin-bottom: 16px; font-size: 14px; }
-    .example-word { font-weight: 700; color: var(--primary-dark); }
+    .example-item { margin-bottom: 16px; font-size: 14px; background: #fefefe; padding: 12px; border-radius: 8px; border-left: 4px solid var(--primary); }
+    .example-word { font-weight: 700; color: var(--text); }
+    .audio-btn { cursor: pointer; display: inline-flex; align-items: center; background: #fffbeb; border: 1px solid var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-left: 12px; }
+    .audio-btn:hover { background: var(--primary); }
+    .en-meaning { font-style: italic; color: var(--text-muted); font-size: 14px; margin-top: 4px; border-left: 2px solid var(--border); padding-left: 10px; }
   </style>
 </head>
 <body>
@@ -19,23 +22,31 @@
     <a href="index.html" style="text-decoration: none; color: var(--text-muted); font-size: 14px;">← 返回首页</a>
     
     <div id="content-card" class="card" style="margin-top: 24px;">
-      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-        <h1 id="word-root" style="font-size: 32px; margin-bottom: 8px;"></h1>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; align-items: center;">
+           <h1 id="word-root" style="font-size: 32px;"></h1>
+           <button id="speak-btn" class="audio-btn">🔊 朗读</button>
+        </div>
         <span id="word-origin" class="stat-label" style="background: var(--bg); padding: 4px 8px; border-radius: 4px;"></span>
       </div>
-      <p id="word-meaning" style="font-size: 20px; font-weight: 600; color: var(--primary-dark); margin-bottom: 16px;"></p>
-      <p id="word-description" style="color: var(--text-muted); font-size: 16px; margin-bottom: 24px;"></p>
+
+      <div style="margin-top: 12px;">
+        <p id="word-meaning-zh" style="font-size: 20px; font-weight: 700; color: #b45309;"></p>
+        <p id="word-meaning-en" class="en-meaning"></p>
+      </div>
+
+      <p id="word-description" style="color: var(--text-muted); font-size: 15px; margin: 20px 0; line-height: 1.8;"></p>
 
       <div class="detail-section">
-        <h3 style="margin-bottom: 12px;">场景应用</h3>
+        <h3 style="margin-bottom: 16px; font-size: 16px;">日常生活场景</h3>
         <div id="examples-list"></div>
       </div>
     </div>
 
     <div class="nav-buttons">
-      <button id="prev-btn" class="btn" style="border: 1px solid var(--border);">上一个</button>
+      <button id="prev-btn" class="btn" style="border: 1px solid var(--border); padding: 10px 20px;">上一个</button>
       <div id="progress-text" style="align-self: center; font-size: 14px; color: var(--text-muted);"></div>
-      <button id="next-btn" class="btn btn-primary">下一个</button>
+      <button id="next-btn" class="btn btn-primary" style="padding: 10px 30px;">下一个</button>
     </div>
   </div>
 
@@ -43,19 +54,37 @@
   <script>
     let currentIndex = 0;
 
+    function speak(text) {
+      const msg = new SpeechSynthesisUtterance();
+      msg.text = text;
+      msg.lang = 'en-US';
+      msg.rate = 0.9;
+      window.speechSynthesis.speak(msg);
+    }
+
     function updateContent() {
       const item = WordRoots[currentIndex];
       document.getElementById('word-root').textContent = item.root;
       document.getElementById('word-origin').textContent = item.origin;
-      document.getElementById('word-meaning').textContent = item.meaning;
+      document.getElementById('word-meaning-zh').textContent = item.meaning;
+      document.getElementById('word-meaning-en').textContent = item.meaning_en;
       document.getElementById('word-description').textContent = item.description;
+
+      document.getElementById('speak-btn').onclick = () => speak(item.root);
 
       const examplesList = document.getElementById('examples-list');
       examplesList.innerHTML = '';
       item.examples.forEach(ex => {
         const div = document.createElement('div');
         div.className = 'example-item';
-        div.innerHTML = `<div class="example-word">${ex.word}</div><div style="font-weight:600;">${ex.meaning}</div><div style="color:var(--text-muted);">${ex.explanation}</div>`;
+        div.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div class="example-word">${ex.word}</div>
+            <button onclick="window.speechSynthesis.speak(new SpeechSynthesisUtterance('${ex.explanation}'))" style="background:none; border:none; cursor:pointer; font-size:12px;">🔊</button>
+          </div>
+          <div style="font-weight:600; margin: 4px 0;">${ex.meaning}</div>
+          <div style="color:var(--text-muted); font-size:13px;">${ex.explanation}</div>
+        `;
         examplesList.appendChild(div);
       });
 
@@ -70,7 +99,7 @@
         currentIndex++; 
         updateContent(); 
       } else {
-        alert('恭喜你完成了本次学习！');
+        alert('🎉 恭喜！你已掌握了这组日常高频词汇。');
         window.location.href = 'index.html';
       }
     };
