@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学习模式 - 英语学习工坊</title>
+  <link rel="stylesheet" href="css/minimal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    .learn-container { padding: 48px 0; max-width: 600px; margin: 0 auto; }
+    .nav-buttons { display: flex; justify-content: space-between; margin-top: 32px; }
+    .detail-section { margin-top: 24px; border-top: 1px solid var(--border); padding-top: 24px; }
+    .example-item { margin-bottom: 16px; font-size: 14px; }
+    .example-word { font-weight: 700; color: var(--primary-dark); }
+  </style>
+</head>
+<body>
+  <div class="container learn-container">
+    <a href="index.html" style="text-decoration: none; color: var(--text-muted); font-size: 14px;">← 返回首页</a>
+    
+    <div id="content-card" class="card" style="margin-top: 24px;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <h1 id="word-root" style="font-size: 32px; margin-bottom: 8px;"></h1>
+        <span id="word-origin" class="stat-label" style="background: var(--bg); padding: 4px 8px; border-radius: 4px;"></span>
+      </div>
+      <p id="word-meaning" style="font-size: 20px; font-weight: 600; color: var(--primary-dark); margin-bottom: 16px;"></p>
+      <p id="word-description" style="color: var(--text-muted); font-size: 16px; margin-bottom: 24px;"></p>
+
+      <div class="detail-section">
+        <h3 style="margin-bottom: 12px;">场景应用</h3>
+        <div id="examples-list"></div>
+      </div>
+    </div>
+
+    <div class="nav-buttons">
+      <button id="prev-btn" class="btn" style="border: 1px solid var(--border);">上一个</button>
+      <div id="progress-text" style="align-self: center; font-size: 14px; color: var(--text-muted);"></div>
+      <button id="next-btn" class="btn btn-primary">下一个</button>
+    </div>
+  </div>
+
+  <script src="js/wordData.js"></script>
+  <script>
+    let currentIndex = 0;
+
+    function updateContent() {
+      const item = WordRoots[currentIndex];
+      document.getElementById('word-root').textContent = item.root;
+      document.getElementById('word-origin').textContent = item.origin;
+      document.getElementById('word-meaning').textContent = item.meaning;
+      document.getElementById('word-description').textContent = item.description;
+
+      const examplesList = document.getElementById('examples-list');
+      examplesList.innerHTML = '';
+      item.examples.forEach(ex => {
+        const div = document.createElement('div');
+        div.className = 'example-item';
+        div.innerHTML = `<div class="example-word">${ex.word}</div><div style="font-weight:600;">${ex.meaning}</div><div style="color:var(--text-muted);">${ex.explanation}</div>`;
+        examplesList.appendChild(div);
+      });
+
+      document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${WordRoots.length}`;
+      document.getElementById('prev-btn').disabled = currentIndex === 0;
+      document.getElementById('next-btn').textContent = currentIndex === WordRoots.length - 1 ? '完成' : '下一个';
+    }
+
+    document.getElementById('prev-btn').onclick = () => { if(currentIndex > 0) { currentIndex--; updateContent(); } };
+    document.getElementById('next-btn').onclick = () => { 
+      if(currentIndex < WordRoots.length - 1) { 
+        currentIndex++; 
+        updateContent(); 
+      } else {
+        alert('恭喜你完成了本次学习！');
+        window.location.href = 'index.html';
+      }
+    };
+
+    updateContent();
+  </script>
+</body>
+</html>
