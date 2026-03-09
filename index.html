@@ -3,71 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>英语学习工坊 - Master English Effortlessly</title>
-  <meta name="description" content="基于认知规律设计的英语学习平台。不仅学习单词的含义，更理解其背后的语境与逻辑。">
+  <title>英语学习工坊 - 记忆引擎版</title>
   <link rel="stylesheet" href="css/minimal.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    .level-card { background: white; border: 1px solid var(--border); padding: 24px; border-radius: 16px; cursor: pointer; transition: all 0.2s; text-align: left; }
+    .level-card:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+    .level-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 700; margin-bottom: 8px; }
+    .level-Beginner { background: #dcfce7; color: #166534; }
+    .level-Intermediate { background: #fef9c3; color: #854d0e; }
+    .level-Advanced { background: #fee2e2; color: #991b1b; }
+  </style>
 </head>
 <body>
   <div class="container">
-    <header class="hero">
-      <h1 class="hero-title">
-        <span id="title-1">Master English</span>
-        <span id="title-2">One Concept</span>
-        <span id="title-3">At a Time</span>
-      </h1>
-      <p class="hero-subtitle" id="hero-subtitle">从高阶词汇到沟通艺术，系统构建你的英语思维模型</p>
-      
-      <div id="demo-area" class="demo-area"></div>
-
-      <div class="cta-group">
-        <a href="learn.html" class="btn btn-primary" id="cta-primary">开始学习 →</a>
-      </div>
+    <header class="hero" style="padding: 64px 0;">
+      <h1 class="hero-title">选择你的挑战等级</h1>
+      <p class="hero-subtitle">5000+ 高频词库已就绪，基于艾宾浩斯记忆曲线动态调整</p>
     </header>
 
-    <section class="stats" id="stats-container">
-      <!-- Stats injected by JS -->
-    </section>
+    <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+      <div class="level-card" onclick="startLevel('Beginner')">
+        <span class="level-badge level-Beginner">入门级</span>
+        <h3 style="font-size: 20px;">L1: 生活基础 (2000词)</h3>
+        <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">涵盖购物、问候、基础动作。适合零基础或找回感觉。</p>
+      </div>
+      <div class="level-card" onclick="startLevel('Intermediate')">
+        <span class="level-badge level-Intermediate">进阶级</span>
+        <h3 style="font-size: 20px;">L2: 职场生活 (2000词)</h3>
+        <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">通勤、会议、财务规划。美国中产日常高频词汇。</p>
+      </div>
+      <div class="level-card" onclick="startLevel('Advanced')">
+        <span class="level-badge level-Advanced">精通级</span>
+        <h3 style="font-size: 20px;">L3: 思想表达 (1000词)</h3>
+        <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">探讨社会、科技、抽象概念。让表达更有深度。</p>
+      </div>
+    </div>
 
-    <footer style="margin-top: 100px; padding: 48px 0; border-top: 1px solid var(--border); text-align: center;">
-      <p id="footer-tagline" style="font-weight: 700; margin-bottom: 12px;"></p>
-      <p id="footer-desc" style="color: var(--text-muted); max-width: 600px; margin: 0 auto; font-size: 14px;"></p>
-    </footer>
+    <div id="review-alert" style="display:none; margin-top: 48px; background: #eff6ff; border: 1px solid #bfdbfe; padding: 16px; border-radius: 12px; display: flex; align-items: center; gap: 12px;">
+      <div style="font-size: 24px;">🧠</div>
+      <div>
+        <div style="font-weight: 700; color: #1e40af;">记忆引擎提醒</div>
+        <div style="font-size: 13px; color: #3b82f6;">你有 <span id="review-count">0</span> 个单词进入了遗忘临界点，建议优先复习。</div>
+      </div>
+      <button class="btn btn-primary" style="margin-left: auto;" onclick="startReview()">立即复习</button>
+    </div>
   </div>
 
-  <script src="js/wordData.js"></script>
-  <script src="js/siteConfig.js"></script>
   <script>
-    // Initialize content from siteConfig
-    document.getElementById('title-1').textContent = siteConfig.hero.title[0];
-    document.getElementById('title-2').textContent = siteConfig.hero.title[1];
-    document.getElementById('title-3').textContent = siteConfig.hero.title[2];
-    document.getElementById('hero-subtitle').textContent = siteConfig.hero.subtitle;
-    document.getElementById('cta-primary').textContent = siteConfig.cta.primary;
-    document.getElementById('footer-tagline').textContent = siteConfig.footer.tagline;
-    document.getElementById('footer-desc').textContent = siteConfig.footer.description;
+    function startLevel(lvl) {
+      localStorage.setItem('selectedLevel', lvl);
+      window.location.href = 'learn.html';
+    }
 
-    const statsContainer = document.getElementById('stats-container');
-    siteConfig.stats.forEach(s => {
-      const div = document.createElement('div');
-      div.className = 'stat-item';
-      div.innerHTML = `<div class="stat-value">${s.value}</div><div class="stat-label">${s.label}</div>`;
-      statsContainer.appendChild(div);
+    // 模拟检测遗忘曲线
+    const memoryData = JSON.parse(localStorage.getItem('memoryData') || '{}');
+    const now = Date.now();
+    let needsReview = 0;
+    Object.values(memoryData).forEach(item => {
+      if (now > item.nextReview) needsReview++;
     });
 
-    // Simple word animation
-    const demoArea = document.getElementById('demo-area');
-    let currentIdx = 0;
-    function rotateWords() {
-      const word = WordRoots[currentIdx];
-      demoArea.innerHTML = `<div class="fade-in">${word.root}</div>`;
-      currentIdx = (currentIdx + 1) % Math.min(WordRoots.length, siteConfig.hero.animation.demoCount);
+    if (needsReview > 0) {
+      document.getElementById('review-alert').style.display = 'flex';
+      document.getElementById('review-count').textContent = needsReview;
     }
-    if (siteConfig.hero.animation.enabled) {
-      rotateWords();
-      setInterval(rotateWords, 3000);
+
+    function startReview() {
+      localStorage.setItem('mode', 'review');
+      window.location.href = 'learn.html';
     }
   </script>
 </body>

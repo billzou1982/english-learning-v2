@@ -3,17 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>学习模式 - 英语学习工坊</title>
+  <title>学习引擎 - 英语学习工坊</title>
   <link rel="stylesheet" href="css/minimal.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     .learn-container { padding: 48px 0; max-width: 600px; margin: 0 auto; }
     .nav-buttons { display: flex; justify-content: space-between; margin-top: 32px; }
-    .detail-section { margin-top: 24px; border-top: 1px solid var(--border); padding-top: 24px; }
-    .example-item { margin-bottom: 16px; font-size: 14px; background: #fefefe; padding: 12px; border-radius: 8px; border-left: 4px solid var(--primary); }
-    .example-word { font-weight: 700; color: var(--text); }
     .audio-btn { cursor: pointer; display: inline-flex; align-items: center; background: #fffbeb; border: 1px solid var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-left: 12px; }
-    .audio-btn:hover { background: var(--primary); }
     .en-meaning { font-style: italic; color: var(--text-muted); font-size: 14px; margin-top: 4px; border-left: 2px solid var(--border); padding-left: 10px; }
   </style>
 </head>
@@ -27,84 +22,98 @@
            <h1 id="word-root" style="font-size: 32px;"></h1>
            <button id="speak-btn" class="audio-btn">🔊 朗读</button>
         </div>
-        <span id="word-origin" class="stat-label" style="background: var(--bg); padding: 4px 8px; border-radius: 4px;"></span>
+        <span id="word-origin" class="stat-badge" style="background: #f3f4f6; font-size: 10px; padding: 2px 6px; border-radius: 4px;"></span>
       </div>
-
       <div style="margin-top: 12px;">
         <p id="word-meaning-zh" style="font-size: 20px; font-weight: 700; color: #b45309;"></p>
         <p id="word-meaning-en" class="en-meaning"></p>
       </div>
+      <p id="word-description" style="color: var(--text-muted); font-size: 15px; margin: 20px 0;"></p>
+    </div>
 
-      <p id="word-description" style="color: var(--text-muted); font-size: 15px; margin: 20px 0; line-height: 1.8;"></p>
-
-      <div class="detail-section">
-        <h3 style="margin-bottom: 16px; font-size: 16px;">日常生活场景</h3>
-        <div id="examples-list"></div>
-      </div>
+    <div id="quiz-section" class="card" style="margin-top: 16px; border-top: 4px solid var(--primary);">
+        <h4 id="quiz-q" style="margin-bottom: 12px;"></h4>
+        <div id="quiz-options" style="display: grid; gap: 8px;"></div>
     </div>
 
     <div class="nav-buttons">
-      <button id="prev-btn" class="btn" style="border: 1px solid var(--border); padding: 10px 20px;">上一个</button>
       <div id="progress-text" style="align-self: center; font-size: 14px; color: var(--text-muted);"></div>
-      <button id="next-btn" class="btn btn-primary" style="padding: 10px 30px;">下一个</button>
+      <button id="next-btn" class="btn btn-primary" style="display:none">继续下一个</button>
     </div>
   </div>
 
   <script src="js/wordData.js"></script>
+  <script src="js/memory.js"></script>
   <script>
-    let currentIndex = 0;
-
-    function speak(text) {
-      const msg = new SpeechSynthesisUtterance();
-      msg.text = text;
-      msg.lang = 'en-US';
-      msg.rate = 0.9;
-      window.speechSynthesis.speak(msg);
+    const level = localStorage.getItem('selectedLevel') || 'Beginner';
+    const mode = localStorage.getItem('mode') || 'learn';
+    
+    let pool = WordRoots.filter(w => w.level === level);
+    if (mode === 'review') {
+        const mem = getMemoryData();
+        pool = WordRoots.filter(w => mem[w.id] && Date.now() > mem[w.id].nextReview);
     }
 
-    function updateContent() {
-      const item = WordRoots[currentIndex];
+    let currentIndex = 0;
+
+    function render() {
+      const item = pool[currentIndex];
+      if (!item) {
+          alert("该级别暂无待学习词汇或复习词汇已清空！");
+          window.location.href = 'index.html';
+          return;
+      }
       document.getElementById('word-root').textContent = item.root;
-      document.getElementById('word-origin').textContent = item.origin;
       document.getElementById('word-meaning-zh').textContent = item.meaning;
       document.getElementById('word-meaning-en').textContent = item.meaning_en;
       document.getElementById('word-description').textContent = item.description;
+      document.getElementById('word-origin').textContent = item.origin;
+      document.getElementById('speak-btn').onclick = () => {
+          const msg = new SpeechSynthesisUtterance(item.root);
+          msg.lang = 'en-US';
+          window.speechSynthesis.speak(msg);
+      };
 
-      document.getElementById('speak-btn').onclick = () => speak(item.root);
-
-      const examplesList = document.getElementById('examples-list');
-      examplesList.innerHTML = '';
-      item.examples.forEach(ex => {
-        const div = document.createElement('div');
-        div.className = 'example-item';
-        div.innerHTML = `
-          <div style="display:flex; justify-content:space-between; align-items:center;">
-            <div class="example-word">${ex.word}</div>
-            <button onclick="window.speechSynthesis.speak(new SpeechSynthesisUtterance('${ex.explanation}'))" style="background:none; border:none; cursor:pointer; font-size:12px;">🔊</button>
-          </div>
-          <div style="font-weight:600; margin: 4px 0;">${ex.meaning}</div>
-          <div style="color:var(--text-muted); font-size:13px;">${ex.explanation}</div>
-        `;
-        examplesList.appendChild(div);
+      // Quiz
+      document.getElementById('quiz-q').textContent = item.quiz.question;
+      const opts = document.getElementById('quiz-options');
+      opts.innerHTML = '';
+      item.quiz.options.forEach((o, i) => {
+          const b = document.createElement('button');
+          b.className = 'btn';
+          b.style = 'border: 1px solid var(--border); text-align: left;';
+          b.textContent = o;
+          b.onclick = () => check(i);
+          opts.appendChild(b);
       });
-
-      document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${WordRoots.length}`;
-      document.getElementById('prev-btn').disabled = currentIndex === 0;
-      document.getElementById('next-btn').textContent = currentIndex === WordRoots.length - 1 ? '完成' : '下一个';
+      document.getElementById('next-btn').style.display = 'none';
+      document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${pool.length}`;
     }
 
-    document.getElementById('prev-btn').onclick = () => { if(currentIndex > 0) { currentIndex--; updateContent(); } };
-    document.getElementById('next-btn').onclick = () => { 
-      if(currentIndex < WordRoots.length - 1) { 
-        currentIndex++; 
-        updateContent(); 
-      } else {
-        alert('🎉 恭喜！你已掌握了这组日常高频词汇。');
-        window.location.href = 'index.html';
-      }
-    };
+    function check(idx) {
+        const item = pool[currentIndex];
+        const success = (idx === item.quiz.correctAnswer);
+        saveMemoryProgress(item.id, success);
+        
+        const opts = document.getElementById('quiz-options').children;
+        for(let i=0; i<opts.length; i++) {
+            opts[i].style.background = (i === item.quiz.correctAnswer) ? '#dcfce7' : (i === idx ? '#fee2e2' : '#fff');
+            opts[i].disabled = true;
+        }
+        document.getElementById('next-btn').style.display = 'block';
+    }
 
-    updateContent();
+    document.getElementById('next-btn').onclick = () => {
+        currentIndex++;
+        if (currentIndex < pool.length) render();
+        else {
+            localStorage.setItem('mode', 'learn');
+            alert("本组学习完成！记忆引擎已更新。");
+            window.location.href = 'index.html';
+        }
+    }
+
+    render();
   </script>
 </body>
 </html>
