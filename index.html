@@ -25,17 +25,17 @@
     <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
       <div class="level-card" onclick="startLevel('Beginner')">
         <span class="level-badge level-Beginner">入门级</span>
-        <h3 style="font-size: 20px;">L1: 生活基础 (2000词)</h3>
+        <h3 style="font-size: 20px;">L1: 生活基础 (<span id="count-Beginner">...</span>词)</h3>
         <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">涵盖购物、问候、基础动作。适合零基础或找回感觉。</p>
       </div>
       <div class="level-card" onclick="startLevel('Intermediate')">
         <span class="level-badge level-Intermediate">进阶级</span>
-        <h3 style="font-size: 20px;">L2: 职场生活 (2000词)</h3>
+        <h3 style="font-size: 20px;">L2: 职场生活 (<span id="count-Intermediate">...</span>词)</h3>
         <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">通勤、会议、财务规划。美国中产日常高频词汇。</p>
       </div>
       <div class="level-card" onclick="startLevel('Advanced')">
         <span class="level-badge level-Advanced">精通级</span>
-        <h3 style="font-size: 20px;">L3: 思想表达 (1000词)</h3>
+        <h3 style="font-size: 20px;">L3: 思想表达 (<span id="count-Advanced">...</span>词)</h3>
         <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">探讨社会、科技、抽象概念。让表达更有深度。</p>
       </div>
     </div>
@@ -50,7 +50,15 @@
     </div>
   </div>
 
+  <script src="js/wordData.js"></script>
   <script>
+    // 动态统计各级别词数
+    const counts = { Beginner: 0, Intermediate: 0, Advanced: 0 };
+    WordRoots.forEach(w => { if (counts[w.level] !== undefined) counts[w.level]++; });
+    document.getElementById('count-Beginner').textContent = counts.Beginner;
+    document.getElementById('count-Intermediate').textContent = counts.Intermediate;
+    document.getElementById('count-Advanced').textContent = counts.Advanced;
+
     function startLevel(lvl) {
       localStorage.setItem('selectedLevel', lvl);
       window.location.href = 'learn.html';
