@@ -8098,5 +8098,5243 @@ const WordRoots = [
       ],
       "correctAnswer": 1
     }
+  },
+  {
+    "id": 301,
+    "level": "Intermediate",
+    "root": "accurate",
+    "phonetic": "/ ˈækjərət/",
+    "origin": "Oxford 5000",
+    "meaning": "准确的",
+    "meaning_en": "Correct in every detail.",
+    "description": "The report must be accurate.",
+    "examples": [
+      {
+        "word": "accurate",
+        "meaning": "准确的",
+        "explanation": "The report must be accurate."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'accurate' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Correct in every det",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 302,
+    "level": "Advanced",
+    "root": "acknowledge",
+    "phonetic": "/ əkˈnɒlɪdʒ/",
+    "origin": "Oxford 5000",
+    "meaning": "承认",
+    "meaning_en": "To accept something is true.",
+    "description": "She acknowledged her error.",
+    "examples": [
+      {
+        "word": "acknowledge",
+        "meaning": "承认",
+        "explanation": "She acknowledged her error."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'acknowledge' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "To accept something "
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 303,
+    "level": "Beginner",
+    "root": "active",
+    "phonetic": "/ ˈæktɪv/",
+    "origin": "Oxford 5000",
+    "meaning": "积极的",
+    "meaning_en": "Engaging in energetic action.",
+    "description": "He is very active in sports.",
+    "examples": [
+      {
+        "word": "active",
+        "meaning": "积极的",
+        "explanation": "He is very active in sports."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'active' mean?",
+      "options": [
+        "Opposite meaning",
+        "Engaging in energeti",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 304,
+    "level": "Beginner",
+    "root": "actual",
+    "phonetic": "/ ˈæktʃuəl/",
+    "origin": "Oxford 5000",
+    "meaning": "实际的",
+    "meaning_en": "Existing in fact or reality.",
+    "description": "What is the actual cost?",
+    "examples": [
+      {
+        "word": "actual",
+        "meaning": "实际的",
+        "explanation": "What is the actual cost?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'actual' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Existing in fact or ",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 305,
+    "level": "Intermediate",
+    "root": "additional",
+    "phonetic": "/ əˈdɪʃənl/",
+    "origin": "Oxford 5000",
+    "meaning": "额外的",
+    "meaning_en": "More than what is usual.",
+    "description": "We need additional funding.",
+    "examples": [
+      {
+        "word": "additional",
+        "meaning": "额外的",
+        "explanation": "We need additional funding."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'additional' mean?",
+      "options": [
+        "More than what is us",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 306,
+    "level": "Beginner",
+    "root": "address",
+    "phonetic": "/ əˈdres/",
+    "origin": "Oxford 5000",
+    "meaning": "地址；演讲",
+    "meaning_en": "The place where someone lives.",
+    "description": "Write your address here.",
+    "examples": [
+      {
+        "word": "address",
+        "meaning": "地址；演讲",
+        "explanation": "Write your address here."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'address' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "The place where some"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 307,
+    "level": "Intermediate",
+    "root": "adequate",
+    "phonetic": "/ ˈædɪkwət/",
+    "origin": "Oxford 5000",
+    "meaning": "足够的",
+    "meaning_en": "Enough for a particular purpose.",
+    "description": "Is the water supply adequate?",
+    "examples": [
+      {
+        "word": "adequate",
+        "meaning": "足够的",
+        "explanation": "Is the water supply adequate?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'adequate' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Enough for a particu",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 308,
+    "level": "Intermediate",
+    "root": "adjust",
+    "phonetic": "/ əˈdʒʌst/",
+    "origin": "Oxford 5000",
+    "meaning": "调整",
+    "meaning_en": "To change slightly to improve.",
+    "description": "Adjust the brightness of the screen.",
+    "examples": [
+      {
+        "word": "adjust",
+        "meaning": "调整",
+        "explanation": "Adjust the brightness of the screen."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'adjust' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning",
+        "To change slightly t"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 309,
+    "level": "Advanced",
+    "root": "administration",
+    "phonetic": "/ ədˌmɪnɪˈstreɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "管理；行政",
+    "meaning_en": "The management of an organization.",
+    "description": "She works in school administration.",
+    "examples": [
+      {
+        "word": "administration",
+        "meaning": "管理；行政",
+        "explanation": "She works in school administration."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'administration' mean?",
+      "options": [
+        "The management of an",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 310,
+    "level": "Advanced",
+    "root": "adolescent",
+    "phonetic": "/ ˌædəˈlesnt/",
+    "origin": "Oxford 5000",
+    "meaning": "青少年",
+    "meaning_en": "A young person aged 13 to 19.",
+    "description": "Adolescents face many challenges.",
+    "examples": [
+      {
+        "word": "adolescent",
+        "meaning": "青少年",
+        "explanation": "Adolescents face many challenges."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'adolescent' mean?",
+      "options": [
+        "A young person aged ",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 311,
+    "level": "Advanced",
+    "root": "advocate",
+    "phonetic": "/ ˈædvəkeɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "提倡；倡导者",
+    "meaning_en": "To publicly support a cause.",
+    "description": "She advocates for women's rights.",
+    "examples": [
+      {
+        "word": "advocate",
+        "meaning": "提倡；倡导者",
+        "explanation": "She advocates for women's rights."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'advocate' mean?",
+      "options": [
+        "Unrelated term",
+        "To publicly support ",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 312,
+    "level": "Intermediate",
+    "root": "agriculture",
+    "phonetic": "/ ˈæɡrɪkʌltʃər/",
+    "origin": "Oxford 5000",
+    "meaning": "农业",
+    "meaning_en": "The practice of farming.",
+    "description": "Agriculture is vital for food supply.",
+    "examples": [
+      {
+        "word": "agriculture",
+        "meaning": "农业",
+        "explanation": "Agriculture is vital for food supply."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'agriculture' mean?",
+      "options": [
+        "Unrelated term",
+        "The practice of farm",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 313,
+    "level": "Intermediate",
+    "root": "alert",
+    "phonetic": "/ əˈlɜːrt/",
+    "origin": "Oxford 5000",
+    "meaning": "警觉",
+    "meaning_en": "Quick to notice and react.",
+    "description": "Stay alert while driving.",
+    "examples": [
+      {
+        "word": "alert",
+        "meaning": "警觉",
+        "explanation": "Stay alert while driving."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'alert' mean?",
+      "options": [
+        "Quick to notice and ",
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 314,
+    "level": "Advanced",
+    "root": "allocate",
+    "phonetic": "/ ˈæləkeɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "分配",
+    "meaning_en": "To set aside for a purpose.",
+    "description": "Allocate enough time for study.",
+    "examples": [
+      {
+        "word": "allocate",
+        "meaning": "分配",
+        "explanation": "Allocate enough time for study."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'allocate' mean?",
+      "options": [
+        "To set aside for a p",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 315,
+    "level": "Intermediate",
+    "root": "ambition",
+    "phonetic": "/ æmˈbɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "雄心",
+    "meaning_en": "A strong desire to succeed.",
+    "description": "Her ambition drives her forward.",
+    "examples": [
+      {
+        "word": "ambition",
+        "meaning": "雄心",
+        "explanation": "Her ambition drives her forward."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'ambition' mean?",
+      "options": [
+        "A strong desire to s",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 316,
+    "level": "Intermediate",
+    "root": "analyze",
+    "phonetic": "/ ˈænəlaɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "分析",
+    "meaning_en": "To examine in detail.",
+    "description": "Analyze the data carefully.",
+    "examples": [
+      {
+        "word": "analyze",
+        "meaning": "分析",
+        "explanation": "Analyze the data carefully."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'analyze' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "To examine in detail"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 317,
+    "level": "Intermediate",
+    "root": "approach",
+    "phonetic": "/ əˈprəʊtʃ/",
+    "origin": "Oxford 5000",
+    "meaning": "方法；靠近",
+    "meaning_en": "A way to handle a situation.",
+    "description": "Try a different approach.",
+    "examples": [
+      {
+        "word": "approach",
+        "meaning": "方法；靠近",
+        "explanation": "Try a different approach."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'approach' mean?",
+      "options": [
+        "Unrelated term",
+        "A way to handle a si",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 318,
+    "level": "Intermediate",
+    "root": "appropriate",
+    "phonetic": "/ əˈprəʊpriət/",
+    "origin": "Oxford 5000",
+    "meaning": "适当的",
+    "meaning_en": "Right for a situation.",
+    "description": "Wear appropriate clothing.",
+    "examples": [
+      {
+        "word": "appropriate",
+        "meaning": "适当的",
+        "explanation": "Wear appropriate clothing."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'appropriate' mean?",
+      "options": [
+        "Opposite meaning",
+        "Right for a situatio",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 319,
+    "level": "Intermediate",
+    "root": "approval",
+    "phonetic": "/ əˈpruːvl/",
+    "origin": "Oxford 5000",
+    "meaning": "批准",
+    "meaning_en": "Official agreement to something.",
+    "description": "The project needs approval.",
+    "examples": [
+      {
+        "word": "approval",
+        "meaning": "批准",
+        "explanation": "The project needs approval."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'approval' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Official agreement t",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 320,
+    "level": "Beginner",
+    "root": "arrange",
+    "phonetic": "/ əˈreɪndʒ/",
+    "origin": "Oxford 5000",
+    "meaning": "安排",
+    "meaning_en": "To plan and prepare.",
+    "description": "She arranged the flowers beautifully.",
+    "examples": [
+      {
+        "word": "arrange",
+        "meaning": "安排",
+        "explanation": "She arranged the flowers beautifully."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'arrange' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "To plan and prepare",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 321,
+    "level": "Intermediate",
+    "root": "assemble",
+    "phonetic": "/ əˈsembl/",
+    "origin": "Oxford 5000",
+    "meaning": "集合；组装",
+    "meaning_en": "To gather together.",
+    "description": "The team assembled quickly.",
+    "examples": [
+      {
+        "word": "assemble",
+        "meaning": "集合；组装",
+        "explanation": "The team assembled quickly."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'assemble' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "To gather together"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 322,
+    "level": "Intermediate",
+    "root": "assign",
+    "phonetic": "/ əˈsaɪn/",
+    "origin": "Oxford 5000",
+    "meaning": "分配；指派",
+    "meaning_en": "To give work to someone.",
+    "description": "She was assigned the hardest task.",
+    "examples": [
+      {
+        "word": "assign",
+        "meaning": "分配；指派",
+        "explanation": "She was assigned the hardest task."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'assign' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "To give work to some",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 323,
+    "level": "Intermediate",
+    "root": "associate",
+    "phonetic": "/ əˈsəʊʃieɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "联系；同事",
+    "meaning_en": "To connect ideas or things.",
+    "description": "I associate summer with freedom.",
+    "examples": [
+      {
+        "word": "associate",
+        "meaning": "联系；同事",
+        "explanation": "I associate summer with freedom."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'associate' mean?",
+      "options": [
+        "Wrong answer",
+        "To connect ideas or ",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 324,
+    "level": "Intermediate",
+    "root": "aware",
+    "phonetic": "/ əˈweər/",
+    "origin": "Oxford 5000",
+    "meaning": "意识到",
+    "meaning_en": "Having knowledge of something.",
+    "description": "Be aware of your surroundings.",
+    "examples": [
+      {
+        "word": "aware",
+        "meaning": "意识到",
+        "explanation": "Be aware of your surroundings."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'aware' mean?",
+      "options": [
+        "Having knowledge of ",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 325,
+    "level": "Intermediate",
+    "root": "barely",
+    "phonetic": "/ ˈbeəli/",
+    "origin": "Oxford 5000",
+    "meaning": "几乎不",
+    "meaning_en": "Only just; almost not.",
+    "description": "She barely passed the exam.",
+    "examples": [
+      {
+        "word": "barely",
+        "meaning": "几乎不",
+        "explanation": "She barely passed the exam."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'barely' mean?",
+      "options": [
+        "Unrelated term",
+        "Only just; almost no",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 326,
+    "level": "Beginner",
+    "root": "belong",
+    "phonetic": "/ bɪˈlɒŋ/",
+    "origin": "Oxford 5000",
+    "meaning": "属于",
+    "meaning_en": "To be a member or part of.",
+    "description": "This bag belongs to me.",
+    "examples": [
+      {
+        "word": "belong",
+        "meaning": "属于",
+        "explanation": "This bag belongs to me."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'belong' mean?",
+      "options": [
+        "To be a member or pa",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 327,
+    "level": "Intermediate",
+    "root": "beneath",
+    "phonetic": "/ bɪˈniːθ/",
+    "origin": "Oxford 5000",
+    "meaning": "在……之下",
+    "meaning_en": "Under or lower than something.",
+    "description": "There is water beneath the surface.",
+    "examples": [
+      {
+        "word": "beneath",
+        "meaning": "在……之下",
+        "explanation": "There is water beneath the surface."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'beneath' mean?",
+      "options": [
+        "Opposite meaning",
+        "Under or lower than ",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 328,
+    "level": "Advanced",
+    "root": "bizarre",
+    "phonetic": "/ bɪˈzɑːr/",
+    "origin": "Oxford 5000",
+    "meaning": "奇异的",
+    "meaning_en": "Very strange or unusual.",
+    "description": "She had a bizarre dream.",
+    "examples": [
+      {
+        "word": "bizarre",
+        "meaning": "奇异的",
+        "explanation": "She had a bizarre dream."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'bizarre' mean?",
+      "options": [
+        "Wrong answer",
+        "Very strange or unus",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 329,
+    "level": "Intermediate",
+    "root": "brief",
+    "phonetic": "/ briːf/",
+    "origin": "Oxford 5000",
+    "meaning": "简短的",
+    "meaning_en": "Short in time or length.",
+    "description": "Give me a brief summary.",
+    "examples": [
+      {
+        "word": "brief",
+        "meaning": "简短的",
+        "explanation": "Give me a brief summary."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'brief' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Short in time or len",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 330,
+    "level": "Intermediate",
+    "root": "broadcast",
+    "phonetic": "/ ˈbrɔːdkɑːst/",
+    "origin": "Oxford 5000",
+    "meaning": "广播；播出",
+    "meaning_en": "To transmit by radio or TV.",
+    "description": "The game was broadcast live.",
+    "examples": [
+      {
+        "word": "broadcast",
+        "meaning": "广播；播出",
+        "explanation": "The game was broadcast live."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'broadcast' mean?",
+      "options": [
+        "To transmit by radio",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 331,
+    "level": "Intermediate",
+    "root": "burden",
+    "phonetic": "/ ˈbɜːrdn/",
+    "origin": "Oxford 5000",
+    "meaning": "负担",
+    "meaning_en": "A heavy responsibility.",
+    "description": "Don't be a burden to others.",
+    "examples": [
+      {
+        "word": "burden",
+        "meaning": "负担",
+        "explanation": "Don't be a burden to others."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'burden' mean?",
+      "options": [
+        "Opposite meaning",
+        "A heavy responsibili",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 332,
+    "level": "Intermediate",
+    "root": "calculate",
+    "phonetic": "/ ˈkælkjuleɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "计算",
+    "meaning_en": "To work out a number.",
+    "description": "Calculate the total cost.",
+    "examples": [
+      {
+        "word": "calculate",
+        "meaning": "计算",
+        "explanation": "Calculate the total cost."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'calculate' mean?",
+      "options": [
+        "Opposite meaning",
+        "To work out a number",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 333,
+    "level": "Intermediate",
+    "root": "capable",
+    "phonetic": "/ ˈkeɪpəbl/",
+    "origin": "Oxford 5000",
+    "meaning": "有能力的",
+    "meaning_en": "Having the skill to do something.",
+    "description": "She is capable of great work.",
+    "examples": [
+      {
+        "word": "capable",
+        "meaning": "有能力的",
+        "explanation": "She is capable of great work."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'capable' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Having the skill to ",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 334,
+    "level": "Intermediate",
+    "root": "capture",
+    "phonetic": "/ ˈkæptʃər/",
+    "origin": "Oxford 5000",
+    "meaning": "捕获；记录",
+    "meaning_en": "To catch or record something.",
+    "description": "The camera captured the moment.",
+    "examples": [
+      {
+        "word": "capture",
+        "meaning": "捕获；记录",
+        "explanation": "The camera captured the moment."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'capture' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "To catch or record s"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 335,
+    "level": "Intermediate",
+    "root": "category",
+    "phonetic": "/ ˈkætəɡəri/",
+    "origin": "Oxford 5000",
+    "meaning": "类别",
+    "meaning_en": "A group of things with shared features.",
+    "description": "Sort items by category.",
+    "examples": [
+      {
+        "word": "category",
+        "meaning": "类别",
+        "explanation": "Sort items by category."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'category' mean?",
+      "options": [
+        "A group of things wi",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 336,
+    "level": "Advanced",
+    "root": "cease",
+    "phonetic": "/ siːs/",
+    "origin": "Oxford 5000",
+    "meaning": "停止",
+    "meaning_en": "To stop doing something.",
+    "description": "The noise ceased suddenly.",
+    "examples": [
+      {
+        "word": "cease",
+        "meaning": "停止",
+        "explanation": "The noise ceased suddenly."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'cease' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "To stop doing someth"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 337,
+    "level": "Beginner",
+    "root": "certain",
+    "phonetic": "/ ˈsɜːrtn/",
+    "origin": "Oxford 5000",
+    "meaning": "确定的",
+    "meaning_en": "Without any doubt.",
+    "description": "I am certain about this.",
+    "examples": [
+      {
+        "word": "certain",
+        "meaning": "确定的",
+        "explanation": "I am certain about this."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'certain' mean?",
+      "options": [
+        "Without any doubt",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 338,
+    "level": "Intermediate",
+    "root": "chemical",
+    "phonetic": "/ ˈkemɪkl/",
+    "origin": "Oxford 5000",
+    "meaning": "化学的；化学品",
+    "meaning_en": "Relating to chemistry.",
+    "description": "Handle chemicals carefully.",
+    "examples": [
+      {
+        "word": "chemical",
+        "meaning": "化学的；化学品",
+        "explanation": "Handle chemicals carefully."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'chemical' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning",
+        "Relating to chemistr"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 339,
+    "level": "Advanced",
+    "root": "circumstances",
+    "phonetic": "/ ˈsɜːrkəmstənsɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "情况；环境",
+    "meaning_en": "The conditions affecting a situation.",
+    "description": "Under these circumstances, we must act.",
+    "examples": [
+      {
+        "word": "circumstances",
+        "meaning": "情况；环境",
+        "explanation": "Under these circumstances, we must act."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'circumstances' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "The conditions affec"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 340,
+    "level": "Intermediate",
+    "root": "clarify",
+    "phonetic": "/ ˈklærɪfaɪ/",
+    "origin": "Oxford 5000",
+    "meaning": "澄清",
+    "meaning_en": "To make something clearer.",
+    "description": "Please clarify your point.",
+    "examples": [
+      {
+        "word": "clarify",
+        "meaning": "澄清",
+        "explanation": "Please clarify your point."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'clarify' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "To make something cl"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 341,
+    "level": "Intermediate",
+    "root": "colleague",
+    "phonetic": "/ ˈkɒliːɡ/",
+    "origin": "Oxford 5000",
+    "meaning": "同事",
+    "meaning_en": "A person you work with.",
+    "description": "She is my colleague.",
+    "examples": [
+      {
+        "word": "colleague",
+        "meaning": "同事",
+        "explanation": "She is my colleague."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'colleague' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning",
+        "A person you work wi"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 342,
+    "level": "Intermediate",
+    "root": "collapse",
+    "phonetic": "/ kəˈlæps/",
+    "origin": "Oxford 5000",
+    "meaning": "崩溃；倒塌",
+    "meaning_en": "To fall down suddenly.",
+    "description": "The old bridge collapsed.",
+    "examples": [
+      {
+        "word": "collapse",
+        "meaning": "崩溃；倒塌",
+        "explanation": "The old bridge collapsed."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'collapse' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "To fall down suddenl",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 343,
+    "level": "Intermediate",
+    "root": "commerce",
+    "phonetic": "/ ˈkɒmɜːrs/",
+    "origin": "Oxford 5000",
+    "meaning": "商业",
+    "meaning_en": "The activity of buying and selling.",
+    "description": "E-commerce has grown rapidly.",
+    "examples": [
+      {
+        "word": "commerce",
+        "meaning": "商业",
+        "explanation": "E-commerce has grown rapidly."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'commerce' mean?",
+      "options": [
+        "Wrong answer",
+        "The activity of buyi",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 344,
+    "level": "Intermediate",
+    "root": "commitment",
+    "phonetic": "/ kəˈmɪtmənt/",
+    "origin": "Oxford 5000",
+    "meaning": "承诺；投入",
+    "meaning_en": "A promise or dedication.",
+    "description": "She showed great commitment.",
+    "examples": [
+      {
+        "word": "commitment",
+        "meaning": "承诺；投入",
+        "explanation": "She showed great commitment."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'commitment' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "A promise or dedicat"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 345,
+    "level": "Beginner",
+    "root": "community",
+    "phonetic": "/ kəˈmjuːnəti/",
+    "origin": "Oxford 5000",
+    "meaning": "社区",
+    "meaning_en": "A group of people living together.",
+    "description": "The local community helped.",
+    "examples": [
+      {
+        "word": "community",
+        "meaning": "社区",
+        "explanation": "The local community helped."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'community' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "A group of people li"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 346,
+    "level": "Intermediate",
+    "root": "competitive",
+    "phonetic": "/ kəmˈpetətɪv/",
+    "origin": "Oxford 5000",
+    "meaning": "竞争的",
+    "meaning_en": "Relating to competition.",
+    "description": "The market is highly competitive.",
+    "examples": [
+      {
+        "word": "competitive",
+        "meaning": "竞争的",
+        "explanation": "The market is highly competitive."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'competitive' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "Relating to competit"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 347,
+    "level": "Advanced",
+    "root": "comprehend",
+    "phonetic": "/ ˌkɒmprɪˈhend/",
+    "origin": "Oxford 5000",
+    "meaning": "理解",
+    "meaning_en": "To understand fully.",
+    "description": "I can't comprehend his behavior.",
+    "examples": [
+      {
+        "word": "comprehend",
+        "meaning": "理解",
+        "explanation": "I can't comprehend his behavior."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'comprehend' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer",
+        "To understand fully"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 348,
+    "level": "Intermediate",
+    "root": "conclusion",
+    "phonetic": "/ kənˈkluːʒn/",
+    "origin": "Oxford 5000",
+    "meaning": "结论",
+    "meaning_en": "A judgment reached by reasoning.",
+    "description": "What conclusion did you reach?",
+    "examples": [
+      {
+        "word": "conclusion",
+        "meaning": "结论",
+        "explanation": "What conclusion did you reach?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'conclusion' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "A judgment reached b",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 349,
+    "level": "Advanced",
+    "root": "confrontation",
+    "phonetic": "/ ˌkɒnfrʌnˈteɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "对抗",
+    "meaning_en": "A hostile encounter.",
+    "description": "They had a heated confrontation.",
+    "examples": [
+      {
+        "word": "confrontation",
+        "meaning": "对抗",
+        "explanation": "They had a heated confrontation."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'confrontation' mean?",
+      "options": [
+        "Opposite meaning",
+        "A hostile encounter",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 350,
+    "level": "Advanced",
+    "root": "consent",
+    "phonetic": "/ kənˈsent/",
+    "origin": "Oxford 5000",
+    "meaning": "同意",
+    "meaning_en": "Permission or agreement.",
+    "description": "You need parental consent.",
+    "examples": [
+      {
+        "word": "consent",
+        "meaning": "同意",
+        "explanation": "You need parental consent."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'consent' mean?",
+      "options": [
+        "Wrong answer",
+        "Permission or agreem",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 351,
+    "level": "Advanced",
+    "root": "considerable",
+    "phonetic": "/ kənˈsɪdərəbl/",
+    "origin": "Oxford 5000",
+    "meaning": "相当大的",
+    "meaning_en": "Large in size or amount.",
+    "description": "It takes considerable effort.",
+    "examples": [
+      {
+        "word": "considerable",
+        "meaning": "相当大的",
+        "explanation": "It takes considerable effort."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'considerable' mean?",
+      "options": [
+        "Large in size or amo",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 352,
+    "level": "Beginner",
+    "root": "contain",
+    "phonetic": "/ kənˈteɪn/",
+    "origin": "Oxford 5000",
+    "meaning": "包含",
+    "meaning_en": "To hold within.",
+    "description": "This box contains books.",
+    "examples": [
+      {
+        "word": "contain",
+        "meaning": "包含",
+        "explanation": "This box contains books."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'contain' mean?",
+      "options": [
+        "Unrelated term",
+        "To hold within",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 353,
+    "level": "Advanced",
+    "root": "contemporary",
+    "phonetic": "/ kənˈtempərəri/",
+    "origin": "Oxford 5000",
+    "meaning": "当代的",
+    "meaning_en": "Belonging to the present.",
+    "description": "She enjoys contemporary art.",
+    "examples": [
+      {
+        "word": "contemporary",
+        "meaning": "当代的",
+        "explanation": "She enjoys contemporary art."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'contemporary' mean?",
+      "options": [
+        "Belonging to the pre",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 354,
+    "level": "Intermediate",
+    "root": "convince",
+    "phonetic": "/ kənˈvɪns/",
+    "origin": "Oxford 5000",
+    "meaning": "说服",
+    "meaning_en": "To persuade someone.",
+    "description": "Can you convince him?",
+    "examples": [
+      {
+        "word": "convince",
+        "meaning": "说服",
+        "explanation": "Can you convince him?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'convince' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "To persuade someone",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 355,
+    "level": "Intermediate",
+    "root": "cooperation",
+    "phonetic": "/ kəʊˌɒpəˈreɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "合作",
+    "meaning_en": "Working together toward a goal.",
+    "description": "Success requires cooperation.",
+    "examples": [
+      {
+        "word": "cooperation",
+        "meaning": "合作",
+        "explanation": "Success requires cooperation."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'cooperation' mean?",
+      "options": [
+        "Working together tow",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 356,
+    "level": "Intermediate",
+    "root": "cope",
+    "phonetic": "/ kəʊp/",
+    "origin": "Oxford 5000",
+    "meaning": "应对",
+    "meaning_en": "To deal with difficulties.",
+    "description": "How do you cope with stress?",
+    "examples": [
+      {
+        "word": "cope",
+        "meaning": "应对",
+        "explanation": "How do you cope with stress?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'cope' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "To deal with difficu",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 357,
+    "level": "Intermediate",
+    "root": "core",
+    "phonetic": "/ kɔːr/",
+    "origin": "Oxford 5000",
+    "meaning": "核心",
+    "meaning_en": "The most important part.",
+    "description": "Focus on core skills.",
+    "examples": [
+      {
+        "word": "core",
+        "meaning": "核心",
+        "explanation": "Focus on core skills."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'core' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "The most important p"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 358,
+    "level": "Advanced",
+    "root": "corporate",
+    "phonetic": "/ ˈkɔːrpərət/",
+    "origin": "Oxford 5000",
+    "meaning": "企业的",
+    "meaning_en": "Relating to a large company.",
+    "description": "She works in the corporate sector.",
+    "examples": [
+      {
+        "word": "corporate",
+        "meaning": "企业的",
+        "explanation": "She works in the corporate sector."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'corporate' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "Relating to a large "
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 359,
+    "level": "Advanced",
+    "root": "counterpart",
+    "phonetic": "/ ˈkaʊntərpɑːrt/",
+    "origin": "Oxford 5000",
+    "meaning": "对应的人/物",
+    "meaning_en": "A person with a similar role.",
+    "description": "She met her British counterpart.",
+    "examples": [
+      {
+        "word": "counterpart",
+        "meaning": "对应的人/物",
+        "explanation": "She met her British counterpart."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'counterpart' mean?",
+      "options": [
+        "Unrelated term",
+        "A person with a simi",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 360,
+    "level": "Beginner",
+    "root": "courage",
+    "phonetic": "/ ˈkʌrɪdʒ/",
+    "origin": "Oxford 5000",
+    "meaning": "勇气",
+    "meaning_en": "The ability to face fear.",
+    "description": "She showed great courage.",
+    "examples": [
+      {
+        "word": "courage",
+        "meaning": "勇气",
+        "explanation": "She showed great courage."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'courage' mean?",
+      "options": [
+        "Wrong answer",
+        "The ability to face ",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 361,
+    "level": "Advanced",
+    "root": "credible",
+    "phonetic": "/ ˈkredɪbl/",
+    "origin": "Oxford 5000",
+    "meaning": "可信的",
+    "meaning_en": "Able to be believed.",
+    "description": "Is the source credible?",
+    "examples": [
+      {
+        "word": "credible",
+        "meaning": "可信的",
+        "explanation": "Is the source credible?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'credible' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Able to be believed",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 362,
+    "level": "Intermediate",
+    "root": "crisis",
+    "phonetic": "/ ˈkraɪsɪs/",
+    "origin": "Oxford 5000",
+    "meaning": "危机",
+    "meaning_en": "A time of intense difficulty.",
+    "description": "The country faces an economic crisis.",
+    "examples": [
+      {
+        "word": "crisis",
+        "meaning": "危机",
+        "explanation": "The country faces an economic crisis."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'crisis' mean?",
+      "options": [
+        "Opposite meaning",
+        "A time of intense di",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 363,
+    "level": "Intermediate",
+    "root": "dedicate",
+    "phonetic": "/ ˈdedɪkeɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "投身于",
+    "meaning_en": "To give time and effort to.",
+    "description": "She dedicated her life to science.",
+    "examples": [
+      {
+        "word": "dedicate",
+        "meaning": "投身于",
+        "explanation": "She dedicated her life to science."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'dedicate' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "To give time and eff",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 364,
+    "level": "Advanced",
+    "root": "deliberate",
+    "phonetic": "/ dɪˈlɪbərət/",
+    "origin": "Oxford 5000",
+    "meaning": "故意的；仔细考虑",
+    "meaning_en": "Done on purpose.",
+    "description": "It was a deliberate mistake.",
+    "examples": [
+      {
+        "word": "deliberate",
+        "meaning": "故意的；仔细考虑",
+        "explanation": "It was a deliberate mistake."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'deliberate' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Done on purpose",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 365,
+    "level": "Intermediate",
+    "root": "demonstrate",
+    "phonetic": "/ ˈdemənstreɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "展示；示威",
+    "meaning_en": "To show clearly.",
+    "description": "Demonstrate how to use it.",
+    "examples": [
+      {
+        "word": "demonstrate",
+        "meaning": "展示；示威",
+        "explanation": "Demonstrate how to use it."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'demonstrate' mean?",
+      "options": [
+        "To show clearly",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 366,
+    "level": "Beginner",
+    "root": "depend",
+    "phonetic": "/ dɪˈpend/",
+    "origin": "Oxford 5000",
+    "meaning": "依赖",
+    "meaning_en": "To need someone or something.",
+    "description": "Babies depend on their parents.",
+    "examples": [
+      {
+        "word": "depend",
+        "meaning": "依赖",
+        "explanation": "Babies depend on their parents."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'depend' mean?",
+      "options": [
+        "To need someone or s",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 367,
+    "level": "Advanced",
+    "root": "derive",
+    "phonetic": "/ dɪˈraɪv/",
+    "origin": "Oxford 5000",
+    "meaning": "源于；获得",
+    "meaning_en": "To obtain from a source.",
+    "description": "Many words derive from Latin.",
+    "examples": [
+      {
+        "word": "derive",
+        "meaning": "源于；获得",
+        "explanation": "Many words derive from Latin."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'derive' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "To obtain from a sou",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 368,
+    "level": "Intermediate",
+    "root": "detect",
+    "phonetic": "/ dɪˈtekt/",
+    "origin": "Oxford 5000",
+    "meaning": "探测；发现",
+    "meaning_en": "To find or notice something.",
+    "description": "The alarm detects smoke.",
+    "examples": [
+      {
+        "word": "detect",
+        "meaning": "探测；发现",
+        "explanation": "The alarm detects smoke."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'detect' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "To find or notice so"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 369,
+    "level": "Intermediate",
+    "root": "determine",
+    "phonetic": "/ dɪˈtɜːrmɪn/",
+    "origin": "Oxford 5000",
+    "meaning": "决定；查明",
+    "meaning_en": "To decide or discover.",
+    "description": "Determine the cause of the problem.",
+    "examples": [
+      {
+        "word": "determine",
+        "meaning": "决定；查明",
+        "explanation": "Determine the cause of the problem."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'determine' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "To decide or discove",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 370,
+    "level": "Beginner",
+    "root": "develop",
+    "phonetic": "/ dɪˈveləp/",
+    "origin": "Oxford 5000",
+    "meaning": "发展",
+    "meaning_en": "To grow or create over time.",
+    "description": "Develop good habits early.",
+    "examples": [
+      {
+        "word": "develop",
+        "meaning": "发展",
+        "explanation": "Develop good habits early."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'develop' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "To grow or create ov"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 371,
+    "level": "Advanced",
+    "root": "dimension",
+    "phonetic": "/ dɪˈmenʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "维度；方面",
+    "meaning_en": "A measurement or aspect.",
+    "description": "Consider every dimension of the issue.",
+    "examples": [
+      {
+        "word": "dimension",
+        "meaning": "维度；方面",
+        "explanation": "Consider every dimension of the issue."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'dimension' mean?",
+      "options": [
+        "A measurement or asp",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 372,
+    "level": "Intermediate",
+    "root": "discipline",
+    "phonetic": "/ ˈdɪsəplɪn/",
+    "origin": "Oxford 5000",
+    "meaning": "纪律；训练",
+    "meaning_en": "Control gained by training.",
+    "description": "Discipline is key to success.",
+    "examples": [
+      {
+        "word": "discipline",
+        "meaning": "纪律；训练",
+        "explanation": "Discipline is key to success."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'discipline' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning",
+        "Control gained by tr"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 373,
+    "level": "Intermediate",
+    "root": "distribute",
+    "phonetic": "/ dɪˈstrɪbjuːt/",
+    "origin": "Oxford 5000",
+    "meaning": "分发；分配",
+    "meaning_en": "To give something to many people.",
+    "description": "Distribute the handouts.",
+    "examples": [
+      {
+        "word": "distribute",
+        "meaning": "分发；分配",
+        "explanation": "Distribute the handouts."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'distribute' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "To give something to",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 374,
+    "level": "Beginner",
+    "root": "disturb",
+    "phonetic": "/ dɪˈstɜːrb/",
+    "origin": "Oxford 5000",
+    "meaning": "打扰",
+    "meaning_en": "To interrupt or upset.",
+    "description": "Do not disturb me now.",
+    "examples": [
+      {
+        "word": "disturb",
+        "meaning": "打扰",
+        "explanation": "Do not disturb me now."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'disturb' mean?",
+      "options": [
+        "To interrupt or upse",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 375,
+    "level": "Advanced",
+    "root": "dominant",
+    "phonetic": "/ ˈdɒmɪnənt/",
+    "origin": "Oxford 5000",
+    "meaning": "占主导地位的",
+    "meaning_en": "More powerful or common.",
+    "description": "English is the dominant language.",
+    "examples": [
+      {
+        "word": "dominant",
+        "meaning": "占主导地位的",
+        "explanation": "English is the dominant language."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'dominant' mean?",
+      "options": [
+        "Opposite meaning",
+        "More powerful or com",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 376,
+    "level": "Intermediate",
+    "root": "duration",
+    "phonetic": "/ djʊˈreɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "持续时间",
+    "meaning_en": "The length of time something lasts.",
+    "description": "The duration of the film is 2 hours.",
+    "examples": [
+      {
+        "word": "duration",
+        "meaning": "持续时间",
+        "explanation": "The duration of the film is 2 hours."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'duration' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "The length of time s",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 377,
+    "level": "Advanced",
+    "root": "elaborate",
+    "phonetic": "/ ɪˈlæbərət/",
+    "origin": "Oxford 5000",
+    "meaning": "详细的；详述",
+    "meaning_en": "Detailed and complicated.",
+    "description": "Can you elaborate on that point?",
+    "examples": [
+      {
+        "word": "elaborate",
+        "meaning": "详细的；详述",
+        "explanation": "Can you elaborate on that point?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'elaborate' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "Detailed and complic"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 378,
+    "level": "Advanced",
+    "root": "eliminate",
+    "phonetic": "/ ɪˈlɪmɪneɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "消除",
+    "meaning_en": "To completely remove.",
+    "description": "Eliminate all possible errors.",
+    "examples": [
+      {
+        "word": "eliminate",
+        "meaning": "消除",
+        "explanation": "Eliminate all possible errors."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'eliminate' mean?",
+      "options": [
+        "To completely remove",
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 379,
+    "level": "Intermediate",
+    "root": "embrace",
+    "phonetic": "/ ɪmˈbreɪs/",
+    "origin": "Oxford 5000",
+    "meaning": "拥抱；接受",
+    "meaning_en": "To hold someone or accept an idea.",
+    "description": "Embrace new opportunities.",
+    "examples": [
+      {
+        "word": "embrace",
+        "meaning": "拥抱；接受",
+        "explanation": "Embrace new opportunities."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'embrace' mean?",
+      "options": [
+        "To hold someone or a",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 380,
+    "level": "Intermediate",
+    "root": "emphasize",
+    "phonetic": "/ ˈemfəsaɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "强调",
+    "meaning_en": "To give special importance.",
+    "description": "She emphasized the key points.",
+    "examples": [
+      {
+        "word": "emphasize",
+        "meaning": "强调",
+        "explanation": "She emphasized the key points."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'emphasize' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "To give special impo",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 381,
+    "level": "Intermediate",
+    "root": "encounter",
+    "phonetic": "/ ɪnˈkaʊntər/",
+    "origin": "Oxford 5000",
+    "meaning": "遭遇；遇到",
+    "meaning_en": "To meet unexpectedly.",
+    "description": "I encountered many problems.",
+    "examples": [
+      {
+        "word": "encounter",
+        "meaning": "遭遇；遇到",
+        "explanation": "I encountered many problems."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'encounter' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "To meet unexpectedly"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 382,
+    "level": "Advanced",
+    "root": "enforce",
+    "phonetic": "/ ɪnˈfɔːrs/",
+    "origin": "Oxford 5000",
+    "meaning": "执行；强制",
+    "meaning_en": "To make rules be obeyed.",
+    "description": "The law must be enforced.",
+    "examples": [
+      {
+        "word": "enforce",
+        "meaning": "执行；强制",
+        "explanation": "The law must be enforced."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'enforce' mean?",
+      "options": [
+        "Unrelated term",
+        "To make rules be obe",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 383,
+    "level": "Intermediate",
+    "root": "engage",
+    "phonetic": "/ ɪnˈɡeɪdʒ/",
+    "origin": "Oxford 5000",
+    "meaning": "参与；吸引",
+    "meaning_en": "To take part in or attract.",
+    "description": "Engage students in learning.",
+    "examples": [
+      {
+        "word": "engage",
+        "meaning": "参与；吸引",
+        "explanation": "Engage students in learning."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'engage' mean?",
+      "options": [
+        "To take part in or a",
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 384,
+    "level": "Advanced",
+    "root": "enhance",
+    "phonetic": "/ ɪnˈhɑːns/",
+    "origin": "Oxford 5000",
+    "meaning": "增强",
+    "meaning_en": "To improve quality.",
+    "description": "Exercise enhances your mood.",
+    "examples": [
+      {
+        "word": "enhance",
+        "meaning": "增强",
+        "explanation": "Exercise enhances your mood."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'enhance' mean?",
+      "options": [
+        "Unrelated term",
+        "To improve quality",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 385,
+    "level": "Intermediate",
+    "root": "enormous",
+    "phonetic": "/ ɪˈnɔːrməs/",
+    "origin": "Oxford 5000",
+    "meaning": "巨大的",
+    "meaning_en": "Very large in size.",
+    "description": "The task was enormous.",
+    "examples": [
+      {
+        "word": "enormous",
+        "meaning": "巨大的",
+        "explanation": "The task was enormous."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'enormous' mean?",
+      "options": [
+        "Unrelated term",
+        "Very large in size",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 386,
+    "level": "Advanced",
+    "root": "enterprise",
+    "phonetic": "/ ˈentəpraɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "企业；事业",
+    "meaning_en": "A business or project.",
+    "description": "She runs a small enterprise.",
+    "examples": [
+      {
+        "word": "enterprise",
+        "meaning": "企业；事业",
+        "explanation": "She runs a small enterprise."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'enterprise' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "A business or projec",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 387,
+    "level": "Intermediate",
+    "root": "exception",
+    "phonetic": "/ ɪkˈsepʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "例外",
+    "meaning_en": "Something not following the rule.",
+    "description": "There are no exceptions to this rule.",
+    "examples": [
+      {
+        "word": "exception",
+        "meaning": "例外",
+        "explanation": "There are no exceptions to this rule."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'exception' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Something not follow",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 388,
+    "level": "Advanced",
+    "root": "execute",
+    "phonetic": "/ ˈeksɪkjuːt/",
+    "origin": "Oxford 5000",
+    "meaning": "执行；处决",
+    "meaning_en": "To carry out a plan.",
+    "description": "Execute the plan carefully.",
+    "examples": [
+      {
+        "word": "execute",
+        "meaning": "执行；处决",
+        "explanation": "Execute the plan carefully."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'execute' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "To carry out a plan",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 389,
+    "level": "Beginner",
+    "root": "exist",
+    "phonetic": "/ ɪɡˈzɪst/",
+    "origin": "Oxford 5000",
+    "meaning": "存在",
+    "meaning_en": "To be real or alive.",
+    "description": "Does life exist on other planets?",
+    "examples": [
+      {
+        "word": "exist",
+        "meaning": "存在",
+        "explanation": "Does life exist on other planets?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'exist' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "To be real or alive",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 390,
+    "level": "Advanced",
+    "root": "extent",
+    "phonetic": "/ ɪkˈstent/",
+    "origin": "Oxford 5000",
+    "meaning": "程度；范围",
+    "meaning_en": "The length or scope of something.",
+    "description": "To what extent do you agree?",
+    "examples": [
+      {
+        "word": "extent",
+        "meaning": "程度；范围",
+        "explanation": "To what extent do you agree?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'extent' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "The length or scope ",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 391,
+    "level": "Intermediate",
+    "root": "flexible",
+    "phonetic": "/ ˈfleksɪbl/",
+    "origin": "Oxford 5000",
+    "meaning": "灵活的",
+    "meaning_en": "Able to change easily.",
+    "description": "Be flexible with your schedule.",
+    "examples": [
+      {
+        "word": "flexible",
+        "meaning": "灵活的",
+        "explanation": "Be flexible with your schedule."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'flexible' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Able to change easil",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 392,
+    "level": "Advanced",
+    "root": "fluctuate",
+    "phonetic": "/ ˈflʌktʃueɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "波动",
+    "meaning_en": "To change irregularly.",
+    "description": "Prices fluctuate with demand.",
+    "examples": [
+      {
+        "word": "fluctuate",
+        "meaning": "波动",
+        "explanation": "Prices fluctuate with demand."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'fluctuate' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "To change irregularl",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 393,
+    "level": "Advanced",
+    "root": "foster",
+    "phonetic": "/ ˈfɒstər/",
+    "origin": "Oxford 5000",
+    "meaning": "培养；促进",
+    "meaning_en": "To encourage or support growth.",
+    "description": "Foster a love of reading.",
+    "examples": [
+      {
+        "word": "foster",
+        "meaning": "培养；促进",
+        "explanation": "Foster a love of reading."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'foster' mean?",
+      "options": [
+        "Opposite meaning",
+        "To encourage or supp",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 394,
+    "level": "Advanced",
+    "root": "framework",
+    "phonetic": "/ ˈfreɪmwɜːrk/",
+    "origin": "Oxford 5000",
+    "meaning": "框架",
+    "meaning_en": "A basic structure.",
+    "description": "Build within a clear framework.",
+    "examples": [
+      {
+        "word": "framework",
+        "meaning": "框架",
+        "explanation": "Build within a clear framework."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'framework' mean?",
+      "options": [
+        "Opposite meaning",
+        "A basic structure",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 395,
+    "level": "Intermediate",
+    "root": "frequently",
+    "phonetic": "/ ˈfriːkwəntli/",
+    "origin": "Oxford 5000",
+    "meaning": "频繁地",
+    "meaning_en": "Many times or often.",
+    "description": "She frequently visits her parents.",
+    "examples": [
+      {
+        "word": "frequently",
+        "meaning": "频繁地",
+        "explanation": "She frequently visits her parents."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'frequently' mean?",
+      "options": [
+        "Many times or often",
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 396,
+    "level": "Intermediate",
+    "root": "fund",
+    "phonetic": "/ fʌnd/",
+    "origin": "Oxford 5000",
+    "meaning": "资金；资助",
+    "meaning_en": "Money for a specific purpose.",
+    "description": "The project is funded by the government.",
+    "examples": [
+      {
+        "word": "fund",
+        "meaning": "资金；资助",
+        "explanation": "The project is funded by the government."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'fund' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Money for a specific",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 397,
+    "level": "Beginner",
+    "root": "gather",
+    "phonetic": "/ ˈɡæðər/",
+    "origin": "Oxford 5000",
+    "meaning": "收集；聚集",
+    "meaning_en": "To collect or come together.",
+    "description": "People gathered in the square.",
+    "examples": [
+      {
+        "word": "gather",
+        "meaning": "收集；聚集",
+        "explanation": "People gathered in the square."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'gather' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "To collect or come t"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 398,
+    "level": "Intermediate",
+    "root": "generosity",
+    "phonetic": "/ ˌdʒenəˈrɒsəti/",
+    "origin": "Oxford 5000",
+    "meaning": "慷慨",
+    "meaning_en": "Willingness to give freely.",
+    "description": "Her generosity touched everyone.",
+    "examples": [
+      {
+        "word": "generosity",
+        "meaning": "慷慨",
+        "explanation": "Her generosity touched everyone."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'generosity' mean?",
+      "options": [
+        "Willingness to give ",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 399,
+    "level": "Intermediate",
+    "root": "gradual",
+    "phonetic": "/ ˈɡrædʒuəl/",
+    "origin": "Oxford 5000",
+    "meaning": "逐渐的",
+    "meaning_en": "Happening slowly over time.",
+    "description": "There was a gradual improvement.",
+    "examples": [
+      {
+        "word": "gradual",
+        "meaning": "逐渐的",
+        "explanation": "There was a gradual improvement."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'gradual' mean?",
+      "options": [
+        "Unrelated term",
+        "Happening slowly ove",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 400,
+    "level": "Intermediate",
+    "root": "grant",
+    "phonetic": "/ ɡrɑːnt/",
+    "origin": "Oxford 5000",
+    "meaning": "授予；补助金",
+    "meaning_en": "To give something officially.",
+    "description": "She received a research grant.",
+    "examples": [
+      {
+        "word": "grant",
+        "meaning": "授予；补助金",
+        "explanation": "She received a research grant."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'grant' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "To give something of"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 401,
+    "level": "Intermediate",
+    "root": "hesitate",
+    "phonetic": "/ ˈhezɪteɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "犹豫",
+    "meaning_en": "To pause before doing something.",
+    "description": "Don't hesitate to ask for help.",
+    "examples": [
+      {
+        "word": "hesitate",
+        "meaning": "犹豫",
+        "explanation": "Don't hesitate to ask for help."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'hesitate' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "To pause before doin"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 402,
+    "level": "Advanced",
+    "root": "hierarchy",
+    "phonetic": "/ ˈhaɪərɑːrki/",
+    "origin": "Oxford 5000",
+    "meaning": "等级制度",
+    "meaning_en": "A system ranked by power.",
+    "description": "Understand the company hierarchy.",
+    "examples": [
+      {
+        "word": "hierarchy",
+        "meaning": "等级制度",
+        "explanation": "Understand the company hierarchy."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'hierarchy' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "A system ranked by p"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 403,
+    "level": "Advanced",
+    "root": "hypothesis",
+    "phonetic": "/ haɪˈpɒθəsɪs/",
+    "origin": "Oxford 5000",
+    "meaning": "假设",
+    "meaning_en": "A proposed explanation.",
+    "description": "Test your hypothesis with data.",
+    "examples": [
+      {
+        "word": "hypothesis",
+        "meaning": "假设",
+        "explanation": "Test your hypothesis with data."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'hypothesis' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "A proposed explanati"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 404,
+    "level": "Intermediate",
+    "root": "illustrate",
+    "phonetic": "/ ˈɪləstreɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "说明；插图",
+    "meaning_en": "To explain by using examples.",
+    "description": "Let me illustrate my point.",
+    "examples": [
+      {
+        "word": "illustrate",
+        "meaning": "说明；插图",
+        "explanation": "Let me illustrate my point."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'illustrate' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "To explain by using "
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 405,
+    "level": "Advanced",
+    "root": "immune",
+    "phonetic": "/ ɪˈmjuːn/",
+    "origin": "Oxford 5000",
+    "meaning": "免疫的",
+    "meaning_en": "Protected from a disease.",
+    "description": "She is immune to the virus.",
+    "examples": [
+      {
+        "word": "immune",
+        "meaning": "免疫的",
+        "explanation": "She is immune to the virus."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'immune' mean?",
+      "options": [
+        "Protected from a dis",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 406,
+    "level": "Advanced",
+    "root": "imply",
+    "phonetic": "/ ɪmˈplaɪ/",
+    "origin": "Oxford 5000",
+    "meaning": "暗示",
+    "meaning_en": "To suggest without saying directly.",
+    "description": "What does that imply?",
+    "examples": [
+      {
+        "word": "imply",
+        "meaning": "暗示",
+        "explanation": "What does that imply?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'imply' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "To suggest without s",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 407,
+    "level": "Advanced",
+    "root": "impose",
+    "phonetic": "/ ɪmˈpəʊz/",
+    "origin": "Oxford 5000",
+    "meaning": "强加；征税",
+    "meaning_en": "To force something on people.",
+    "description": "New taxes were imposed.",
+    "examples": [
+      {
+        "word": "impose",
+        "meaning": "强加；征税",
+        "explanation": "New taxes were imposed."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'impose' mean?",
+      "options": [
+        "Unrelated term",
+        "To force something o",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 408,
+    "level": "Intermediate",
+    "root": "independent",
+    "phonetic": "/ ˌɪndɪˈpendənt/",
+    "origin": "Oxford 5000",
+    "meaning": "独立的",
+    "meaning_en": "Not relying on others.",
+    "description": "She is very independent.",
+    "examples": [
+      {
+        "word": "independent",
+        "meaning": "独立的",
+        "explanation": "She is very independent."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'independent' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning",
+        "Not relying on other"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 409,
+    "level": "Intermediate",
+    "root": "individual",
+    "phonetic": "/ ˌɪndɪˈvɪdʒuəl/",
+    "origin": "Oxford 5000",
+    "meaning": "个人的；个体",
+    "meaning_en": "A single person.",
+    "description": "Respect each individual's rights.",
+    "examples": [
+      {
+        "word": "individual",
+        "meaning": "个人的；个体",
+        "explanation": "Respect each individual's rights."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'individual' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "A single person"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 410,
+    "level": "Advanced",
+    "root": "inevitable",
+    "phonetic": "/ ɪnˈevɪtəbl/",
+    "origin": "Oxford 5000",
+    "meaning": "不可避免的",
+    "meaning_en": "Certain to happen.",
+    "description": "Change is inevitable.",
+    "examples": [
+      {
+        "word": "inevitable",
+        "meaning": "不可避免的",
+        "explanation": "Change is inevitable."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'inevitable' mean?",
+      "options": [
+        "Opposite meaning",
+        "Certain to happen",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 411,
+    "level": "Advanced",
+    "root": "infrastructure",
+    "phonetic": "/ ˈɪnfrəstrʌktʃər/",
+    "origin": "Oxford 5000",
+    "meaning": "基础设施",
+    "meaning_en": "Basic systems of a country.",
+    "description": "Invest in infrastructure.",
+    "examples": [
+      {
+        "word": "infrastructure",
+        "meaning": "基础设施",
+        "explanation": "Invest in infrastructure."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'infrastructure' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Basic systems of a c",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 412,
+    "level": "Intermediate",
+    "root": "inherit",
+    "phonetic": "/ ɪnˈherɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "继承",
+    "meaning_en": "To receive from a parent.",
+    "description": "She inherited the house.",
+    "examples": [
+      {
+        "word": "inherit",
+        "meaning": "继承",
+        "explanation": "She inherited the house."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'inherit' mean?",
+      "options": [
+        "Opposite meaning",
+        "To receive from a pa",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 413,
+    "level": "Advanced",
+    "root": "integrate",
+    "phonetic": "/ ˈɪntɪɡreɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "整合；融入",
+    "meaning_en": "To combine or join together.",
+    "description": "Integrate new technology into work.",
+    "examples": [
+      {
+        "word": "integrate",
+        "meaning": "整合；融入",
+        "explanation": "Integrate new technology into work."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'integrate' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "To combine or join t"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 414,
+    "level": "Intermediate",
+    "root": "intense",
+    "phonetic": "/ ɪnˈtens/",
+    "origin": "Oxford 5000",
+    "meaning": "强烈的",
+    "meaning_en": "Very strong or extreme.",
+    "description": "The heat was intense.",
+    "examples": [
+      {
+        "word": "intense",
+        "meaning": "强烈的",
+        "explanation": "The heat was intense."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'intense' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "Very strong or extre"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 415,
+    "level": "Intermediate",
+    "root": "interact",
+    "phonetic": "/ ˌɪntərˈækt/",
+    "origin": "Oxford 5000",
+    "meaning": "互动",
+    "meaning_en": "To communicate or affect each other.",
+    "description": "Students interact with teachers daily.",
+    "examples": [
+      {
+        "word": "interact",
+        "meaning": "互动",
+        "explanation": "Students interact with teachers daily."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'interact' mean?",
+      "options": [
+        "To communicate or af",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 416,
+    "level": "Intermediate",
+    "root": "investigate",
+    "phonetic": "/ ɪnˈvestɪɡeɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "调查",
+    "meaning_en": "To examine carefully.",
+    "description": "Police are investigating the crime.",
+    "examples": [
+      {
+        "word": "investigate",
+        "meaning": "调查",
+        "explanation": "Police are investigating the crime."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'investigate' mean?",
+      "options": [
+        "Wrong answer",
+        "To examine carefully",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 417,
+    "level": "Intermediate",
+    "root": "journal",
+    "phonetic": "/ ˈdʒɜːrnl/",
+    "origin": "Oxford 5000",
+    "meaning": "日记；期刊",
+    "meaning_en": "A daily record or publication.",
+    "description": "She keeps a personal journal.",
+    "examples": [
+      {
+        "word": "journal",
+        "meaning": "日记；期刊",
+        "explanation": "She keeps a personal journal."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'journal' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "A daily record or pu",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 418,
+    "level": "Intermediate",
+    "root": "keen",
+    "phonetic": "/ kiːn/",
+    "origin": "Oxford 5000",
+    "meaning": "热切的；敏锐的",
+    "meaning_en": "Eager or sharp.",
+    "description": "She is keen to learn.",
+    "examples": [
+      {
+        "word": "keen",
+        "meaning": "热切的；敏锐的",
+        "explanation": "She is keen to learn."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'keen' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Eager or sharp",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 419,
+    "level": "Beginner",
+    "root": "lean",
+    "phonetic": "/ liːn/",
+    "origin": "Oxford 5000",
+    "meaning": "倾斜；精简",
+    "meaning_en": "To slope or be thin.",
+    "description": "Lean against the wall.",
+    "examples": [
+      {
+        "word": "lean",
+        "meaning": "倾斜；精简",
+        "explanation": "Lean against the wall."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'lean' mean?",
+      "options": [
+        "Opposite meaning",
+        "To slope or be thin",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 420,
+    "level": "Advanced",
+    "root": "legislation",
+    "phonetic": "/ ˌledʒɪˈsleɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "立法",
+    "meaning_en": "Laws made by a government.",
+    "description": "New legislation was passed.",
+    "examples": [
+      {
+        "word": "legislation",
+        "meaning": "立法",
+        "explanation": "New legislation was passed."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'legislation' mean?",
+      "options": [
+        "Laws made by a gover",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 421,
+    "level": "Intermediate",
+    "root": "leisure",
+    "phonetic": "/ ˈleʒər/",
+    "origin": "Oxford 5000",
+    "meaning": "休闲",
+    "meaning_en": "Free time for enjoyment.",
+    "description": "How do you spend your leisure time?",
+    "examples": [
+      {
+        "word": "leisure",
+        "meaning": "休闲",
+        "explanation": "How do you spend your leisure time?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'leisure' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "Free time for enjoym",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 422,
+    "level": "Intermediate",
+    "root": "literacy",
+    "phonetic": "/ ˈlɪtərəsi/",
+    "origin": "Oxford 5000",
+    "meaning": "识字率；素养",
+    "meaning_en": "The ability to read and write.",
+    "description": "Improve literacy rates.",
+    "examples": [
+      {
+        "word": "literacy",
+        "meaning": "识字率；素养",
+        "explanation": "Improve literacy rates."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'literacy' mean?",
+      "options": [
+        "The ability to read ",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 423,
+    "level": "Intermediate",
+    "root": "logic",
+    "phonetic": "/ ˈlɒdʒɪk/",
+    "origin": "Oxford 5000",
+    "meaning": "逻辑",
+    "meaning_en": "Rational thinking.",
+    "description": "Use logic to solve problems.",
+    "examples": [
+      {
+        "word": "logic",
+        "meaning": "逻辑",
+        "explanation": "Use logic to solve problems."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'logic' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "Rational thinking"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 424,
+    "level": "Intermediate",
+    "root": "loyal",
+    "phonetic": "/ ˈlɔɪəl/",
+    "origin": "Oxford 5000",
+    "meaning": "忠诚的",
+    "meaning_en": "Faithful to someone or something.",
+    "description": "Be loyal to your friends.",
+    "examples": [
+      {
+        "word": "loyal",
+        "meaning": "忠诚的",
+        "explanation": "Be loyal to your friends."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'loyal' mean?",
+      "options": [
+        "Wrong answer",
+        "Faithful to someone ",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 425,
+    "level": "Advanced",
+    "root": "manifest",
+    "phonetic": "/ ˈmænɪfest/",
+    "origin": "Oxford 5000",
+    "meaning": "显现；清单",
+    "meaning_en": "To show clearly.",
+    "description": "Her talent manifested early.",
+    "examples": [
+      {
+        "word": "manifest",
+        "meaning": "显现；清单",
+        "explanation": "Her talent manifested early."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'manifest' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "To show clearly",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 426,
+    "level": "Advanced",
+    "root": "maximize",
+    "phonetic": "/ ˈmæksɪmaɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "最大化",
+    "meaning_en": "To increase to the highest point.",
+    "description": "Maximize your productivity.",
+    "examples": [
+      {
+        "word": "maximize",
+        "meaning": "最大化",
+        "explanation": "Maximize your productivity."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'maximize' mean?",
+      "options": [
+        "To increase to the h",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 427,
+    "level": "Intermediate",
+    "root": "meanwhile",
+    "phonetic": "/ ˈmiːnwaɪl/",
+    "origin": "Oxford 5000",
+    "meaning": "同时",
+    "meaning_en": "At the same time.",
+    "description": "Meanwhile, outside it was raining.",
+    "examples": [
+      {
+        "word": "meanwhile",
+        "meaning": "同时",
+        "explanation": "Meanwhile, outside it was raining."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'meanwhile' mean?",
+      "options": [
+        "At the same time",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 428,
+    "level": "Advanced",
+    "root": "minimize",
+    "phonetic": "/ ˈmɪnɪmaɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "最小化",
+    "meaning_en": "To reduce to the smallest amount.",
+    "description": "Minimize costs where possible.",
+    "examples": [
+      {
+        "word": "minimize",
+        "meaning": "最小化",
+        "explanation": "Minimize costs where possible."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'minimize' mean?",
+      "options": [
+        "Unrelated term",
+        "To reduce to the sma",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 429,
+    "level": "Intermediate",
+    "root": "mission",
+    "phonetic": "/ ˈmɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "使命；任务",
+    "meaning_en": "An important task or purpose.",
+    "description": "Our mission is to help people.",
+    "examples": [
+      {
+        "word": "mission",
+        "meaning": "使命；任务",
+        "explanation": "Our mission is to help people."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'mission' mean?",
+      "options": [
+        "An important task or",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 430,
+    "level": "Intermediate",
+    "root": "modify",
+    "phonetic": "/ ˈmɒdɪfaɪ/",
+    "origin": "Oxford 5000",
+    "meaning": "修改",
+    "meaning_en": "To make small changes.",
+    "description": "Modify your behavior to fit the culture.",
+    "examples": [
+      {
+        "word": "modify",
+        "meaning": "修改",
+        "explanation": "Modify your behavior to fit the culture."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'modify' mean?",
+      "options": [
+        "Wrong answer",
+        "To make small change",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 431,
+    "level": "Advanced",
+    "root": "narrative",
+    "phonetic": "/ ˈnærətɪv/",
+    "origin": "Oxford 5000",
+    "meaning": "叙述",
+    "meaning_en": "A spoken or written story.",
+    "description": "Tell the narrative from your view.",
+    "examples": [
+      {
+        "word": "narrative",
+        "meaning": "叙述",
+        "explanation": "Tell the narrative from your view."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'narrative' mean?",
+      "options": [
+        "Unrelated term",
+        "A spoken or written ",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 432,
+    "level": "Intermediate",
+    "root": "network",
+    "phonetic": "/ ˈnetwɜːrk/",
+    "origin": "Oxford 5000",
+    "meaning": "网络",
+    "meaning_en": "A system of connected things.",
+    "description": "Build a professional network.",
+    "examples": [
+      {
+        "word": "network",
+        "meaning": "网络",
+        "explanation": "Build a professional network."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'network' mean?",
+      "options": [
+        "A system of connecte",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 433,
+    "level": "Intermediate",
+    "root": "neutral",
+    "phonetic": "/ ˈnjuːtrəl/",
+    "origin": "Oxford 5000",
+    "meaning": "中立的",
+    "meaning_en": "Not taking sides.",
+    "description": "Stay neutral in the argument.",
+    "examples": [
+      {
+        "word": "neutral",
+        "meaning": "中立的",
+        "explanation": "Stay neutral in the argument."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'neutral' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "Not taking sides"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 434,
+    "level": "Advanced",
+    "root": "notion",
+    "phonetic": "/ ˈnəʊʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "概念；想法",
+    "meaning_en": "An idea or belief.",
+    "description": "I like the notion of equality.",
+    "examples": [
+      {
+        "word": "notion",
+        "meaning": "概念；想法",
+        "explanation": "I like the notion of equality."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'notion' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer",
+        "An idea or belief"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 435,
+    "level": "Intermediate",
+    "root": "obstacle",
+    "phonetic": "/ ˈɒbstəkl/",
+    "origin": "Oxford 5000",
+    "meaning": "障碍",
+    "meaning_en": "Something that blocks progress.",
+    "description": "Overcome every obstacle.",
+    "examples": [
+      {
+        "word": "obstacle",
+        "meaning": "障碍",
+        "explanation": "Overcome every obstacle."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'obstacle' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "Something that block"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 436,
+    "level": "Intermediate",
+    "root": "ongoing",
+    "phonetic": "/ ˈɒnɡəʊɪŋ/",
+    "origin": "Oxford 5000",
+    "meaning": "持续的",
+    "meaning_en": "Continuing or progressing.",
+    "description": "This is an ongoing project.",
+    "examples": [
+      {
+        "word": "ongoing",
+        "meaning": "持续的",
+        "explanation": "This is an ongoing project."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'ongoing' mean?",
+      "options": [
+        "Continuing or progre",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 437,
+    "level": "Beginner",
+    "root": "opinion",
+    "phonetic": "/ əˈpɪniən/",
+    "origin": "Oxford 5000",
+    "meaning": "意见；看法",
+    "meaning_en": "A personal view or belief.",
+    "description": "What is your opinion?",
+    "examples": [
+      {
+        "word": "opinion",
+        "meaning": "意见；看法",
+        "explanation": "What is your opinion?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'opinion' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer",
+        "A personal view or b"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 438,
+    "level": "Intermediate",
+    "root": "oppose",
+    "phonetic": "/ əˈpəʊz/",
+    "origin": "Oxford 5000",
+    "meaning": "反对",
+    "meaning_en": "To be against something.",
+    "description": "Many people opposed the decision.",
+    "examples": [
+      {
+        "word": "oppose",
+        "meaning": "反对",
+        "explanation": "Many people opposed the decision."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'oppose' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer",
+        "To be against someth"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 439,
+    "level": "Beginner",
+    "root": "organize",
+    "phonetic": "/ ˈɔːrɡənaɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "组织",
+    "meaning_en": "To arrange in a structured way.",
+    "description": "Organize your files properly.",
+    "examples": [
+      {
+        "word": "organize",
+        "meaning": "组织",
+        "explanation": "Organize your files properly."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'organize' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term",
+        "To arrange in a stru"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 440,
+    "level": "Intermediate",
+    "root": "outstanding",
+    "phonetic": "/ aʊtˈstændɪŋ/",
+    "origin": "Oxford 5000",
+    "meaning": "杰出的",
+    "meaning_en": "Exceptionally good.",
+    "description": "She has outstanding talent.",
+    "examples": [
+      {
+        "word": "outstanding",
+        "meaning": "杰出的",
+        "explanation": "She has outstanding talent."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'outstanding' mean?",
+      "options": [
+        "Exceptionally good",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 441,
+    "level": "Advanced",
+    "root": "perceive",
+    "phonetic": "/ pəˈsiːv/",
+    "origin": "Oxford 5000",
+    "meaning": "感知",
+    "meaning_en": "To understand or notice.",
+    "description": "How do you perceive this issue?",
+    "examples": [
+      {
+        "word": "perceive",
+        "meaning": "感知",
+        "explanation": "How do you perceive this issue?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'perceive' mean?",
+      "options": [
+        "Opposite meaning",
+        "To understand or not",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 442,
+    "level": "Intermediate",
+    "root": "persist",
+    "phonetic": "/ pəˈsɪst/",
+    "origin": "Oxford 5000",
+    "meaning": "坚持",
+    "meaning_en": "To continue doing something.",
+    "description": "Persist and you will succeed.",
+    "examples": [
+      {
+        "word": "persist",
+        "meaning": "坚持",
+        "explanation": "Persist and you will succeed."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'persist' mean?",
+      "options": [
+        "To continue doing so",
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 443,
+    "level": "Intermediate",
+    "root": "phase",
+    "phonetic": "/ feɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "阶段",
+    "meaning_en": "A distinct period or stage.",
+    "description": "The first phase is complete.",
+    "examples": [
+      {
+        "word": "phase",
+        "meaning": "阶段",
+        "explanation": "The first phase is complete."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'phase' mean?",
+      "options": [
+        "Wrong answer",
+        "A distinct period or",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 444,
+    "level": "Advanced",
+    "root": "philosophy",
+    "phonetic": "/ fɪˈlɒsəfi/",
+    "origin": "Oxford 5000",
+    "meaning": "哲学",
+    "meaning_en": "The study of knowledge and beliefs.",
+    "description": "She studies philosophy at college.",
+    "examples": [
+      {
+        "word": "philosophy",
+        "meaning": "哲学",
+        "explanation": "She studies philosophy at college."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'philosophy' mean?",
+      "options": [
+        "Wrong answer",
+        "The study of knowled",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 445,
+    "level": "Beginner",
+    "root": "physical",
+    "phonetic": "/ ˈfɪzɪkl/",
+    "origin": "Oxford 5000",
+    "meaning": "身体的；物理的",
+    "meaning_en": "Relating to the body or matter.",
+    "description": "Regular physical exercise is important.",
+    "examples": [
+      {
+        "word": "physical",
+        "meaning": "身体的；物理的",
+        "explanation": "Regular physical exercise is important."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'physical' mean?",
+      "options": [
+        "Relating to the body",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 446,
+    "level": "Advanced",
+    "root": "precise",
+    "phonetic": "/ prɪˈsaɪs/",
+    "origin": "Oxford 5000",
+    "meaning": "精确的",
+    "meaning_en": "Exact and accurate.",
+    "description": "Be precise in your measurements.",
+    "examples": [
+      {
+        "word": "precise",
+        "meaning": "精确的",
+        "explanation": "Be precise in your measurements."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'precise' mean?",
+      "options": [
+        "Opposite meaning",
+        "Exact and accurate",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 447,
+    "level": "Intermediate",
+    "root": "priority",
+    "phonetic": "/ praɪˈɒrəti/",
+    "origin": "Oxford 5000",
+    "meaning": "优先事项",
+    "meaning_en": "Something that is most important.",
+    "description": "Health should be a priority.",
+    "examples": [
+      {
+        "word": "priority",
+        "meaning": "优先事项",
+        "explanation": "Health should be a priority."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'priority' mean?",
+      "options": [
+        "Something that is mo",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 448,
+    "level": "Advanced",
+    "root": "profound",
+    "phonetic": "/ prəˈfaʊnd/",
+    "origin": "Oxford 5000",
+    "meaning": "深刻的",
+    "meaning_en": "Very deep or serious.",
+    "description": "She made a profound impact.",
+    "examples": [
+      {
+        "word": "profound",
+        "meaning": "深刻的",
+        "explanation": "She made a profound impact."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'profound' mean?",
+      "options": [
+        "Very deep or serious",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 449,
+    "level": "Beginner",
+    "root": "progress",
+    "phonetic": "/ ˈprəʊɡres/",
+    "origin": "Oxford 5000",
+    "meaning": "进步",
+    "meaning_en": "Movement toward a goal.",
+    "description": "Track your progress daily.",
+    "examples": [
+      {
+        "word": "progress",
+        "meaning": "进步",
+        "explanation": "Track your progress daily."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'progress' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "Movement toward a go",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 450,
+    "level": "Advanced",
+    "root": "prominent",
+    "phonetic": "/ ˈprɒmɪnənt/",
+    "origin": "Oxford 5000",
+    "meaning": "突出的；著名的",
+    "meaning_en": "Important and well-known.",
+    "description": "She is a prominent figure.",
+    "examples": [
+      {
+        "word": "prominent",
+        "meaning": "突出的；著名的",
+        "explanation": "She is a prominent figure."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'prominent' mean?",
+      "options": [
+        "Important and well-k",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 451,
+    "level": "Advanced",
+    "root": "proportion",
+    "phonetic": "/ prəˈpɔːrʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "比例",
+    "meaning_en": "A part in relation to the whole.",
+    "description": "The proportion of students increased.",
+    "examples": [
+      {
+        "word": "proportion",
+        "meaning": "比例",
+        "explanation": "The proportion of students increased."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'proportion' mean?",
+      "options": [
+        "Unrelated term",
+        "A part in relation t",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 452,
+    "level": "Beginner",
+    "root": "reasonable",
+    "phonetic": "/ ˈriːzənəbl/",
+    "origin": "Oxford 5000",
+    "meaning": "合理的",
+    "meaning_en": "Fair and sensible.",
+    "description": "That is a reasonable price.",
+    "examples": [
+      {
+        "word": "reasonable",
+        "meaning": "合理的",
+        "explanation": "That is a reasonable price."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'reasonable' mean?",
+      "options": [
+        "Wrong answer",
+        "Fair and sensible",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 453,
+    "level": "Advanced",
+    "root": "recognition",
+    "phonetic": "/ ˌrekəɡˈnɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "认可；识别",
+    "meaning_en": "Acknowledgment of worth.",
+    "description": "She deserves recognition.",
+    "examples": [
+      {
+        "word": "recognition",
+        "meaning": "认可；识别",
+        "explanation": "She deserves recognition."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'recognition' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "Acknowledgment of wo"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 454,
+    "level": "Beginner",
+    "root": "recommend",
+    "phonetic": "/ ˌrekəˈmend/",
+    "origin": "Oxford 5000",
+    "meaning": "推荐",
+    "meaning_en": "To suggest as good.",
+    "description": "I recommend this book.",
+    "examples": [
+      {
+        "word": "recommend",
+        "meaning": "推荐",
+        "explanation": "I recommend this book."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'recommend' mean?",
+      "options": [
+        "Opposite meaning",
+        "To suggest as good",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 455,
+    "level": "Intermediate",
+    "root": "recover",
+    "phonetic": "/ rɪˈkʌvər/",
+    "origin": "Oxford 5000",
+    "meaning": "恢复",
+    "meaning_en": "To return to a normal state.",
+    "description": "She recovered quickly from illness.",
+    "examples": [
+      {
+        "word": "recover",
+        "meaning": "恢复",
+        "explanation": "She recovered quickly from illness."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'recover' mean?",
+      "options": [
+        "To return to a norma",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 456,
+    "level": "Advanced",
+    "root": "reform",
+    "phonetic": "/ rɪˈfɔːrm/",
+    "origin": "Oxford 5000",
+    "meaning": "改革",
+    "meaning_en": "To make improvements.",
+    "description": "They plan to reform the system.",
+    "examples": [
+      {
+        "word": "reform",
+        "meaning": "改革",
+        "explanation": "They plan to reform the system."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'reform' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "To make improvements",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 457,
+    "level": "Intermediate",
+    "root": "region",
+    "phonetic": "/ ˈriːdʒən/",
+    "origin": "Oxford 5000",
+    "meaning": "地区",
+    "meaning_en": "An area of land.",
+    "description": "She lives in the northern region.",
+    "examples": [
+      {
+        "word": "region",
+        "meaning": "地区",
+        "explanation": "She lives in the northern region."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'region' mean?",
+      "options": [
+        "An area of land",
+        "Opposite meaning",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 458,
+    "level": "Advanced",
+    "root": "regulate",
+    "phonetic": "/ ˈreɡjuleɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "规范；调节",
+    "meaning_en": "To control by rules.",
+    "description": "Regulate the temperature.",
+    "examples": [
+      {
+        "word": "regulate",
+        "meaning": "规范；调节",
+        "explanation": "Regulate the temperature."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'regulate' mean?",
+      "options": [
+        "Unrelated term",
+        "Opposite meaning",
+        "To control by rules",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 459,
+    "level": "Advanced",
+    "root": "reinforce",
+    "phonetic": "/ ˌriːɪnˈfɔːrs/",
+    "origin": "Oxford 5000",
+    "meaning": "加强",
+    "meaning_en": "To strengthen something.",
+    "description": "Reinforce positive behavior.",
+    "examples": [
+      {
+        "word": "reinforce",
+        "meaning": "加强",
+        "explanation": "Reinforce positive behavior."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'reinforce' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "To strengthen someth",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 460,
+    "level": "Intermediate",
+    "root": "reject",
+    "phonetic": "/ rɪˈdʒekt/",
+    "origin": "Oxford 5000",
+    "meaning": "拒绝",
+    "meaning_en": "To refuse to accept.",
+    "description": "Her application was rejected.",
+    "examples": [
+      {
+        "word": "reject",
+        "meaning": "拒绝",
+        "explanation": "Her application was rejected."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'reject' mean?",
+      "options": [
+        "Opposite meaning",
+        "To refuse to accept",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 461,
+    "level": "Intermediate",
+    "root": "release",
+    "phonetic": "/ rɪˈliːs/",
+    "origin": "Oxford 5000",
+    "meaning": "释放；发布",
+    "meaning_en": "To set free or make available.",
+    "description": "They released the new album.",
+    "examples": [
+      {
+        "word": "release",
+        "meaning": "释放；发布",
+        "explanation": "They released the new album."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'release' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer",
+        "To set free or make "
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 462,
+    "level": "Intermediate",
+    "root": "rely",
+    "phonetic": "/ rɪˈlaɪ/",
+    "origin": "Oxford 5000",
+    "meaning": "依靠",
+    "meaning_en": "To depend on someone.",
+    "description": "I rely on my team.",
+    "examples": [
+      {
+        "word": "rely",
+        "meaning": "依靠",
+        "explanation": "I rely on my team."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'rely' mean?",
+      "options": [
+        "Unrelated term",
+        "To depend on someone",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 463,
+    "level": "Intermediate",
+    "root": "remote",
+    "phonetic": "/ rɪˈməʊt/",
+    "origin": "Oxford 5000",
+    "meaning": "偏远的；遥控",
+    "meaning_en": "Far away or operated from a distance.",
+    "description": "She lives in a remote area.",
+    "examples": [
+      {
+        "word": "remote",
+        "meaning": "偏远的；遥控",
+        "explanation": "She lives in a remote area."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'remote' mean?",
+      "options": [
+        "Far away or operated",
+        "Wrong answer",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 464,
+    "level": "Beginner",
+    "root": "replace",
+    "phonetic": "/ rɪˈpleɪs/",
+    "origin": "Oxford 5000",
+    "meaning": "替换",
+    "meaning_en": "To put something in place of another.",
+    "description": "Replace old habits with new ones.",
+    "examples": [
+      {
+        "word": "replace",
+        "meaning": "替换",
+        "explanation": "Replace old habits with new ones."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'replace' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "To put something in ",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 465,
+    "level": "Intermediate",
+    "root": "reputation",
+    "phonetic": "/ ˌrepjuˈteɪʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "声誉",
+    "meaning_en": "The opinion others have of you.",
+    "description": "Protect your reputation.",
+    "examples": [
+      {
+        "word": "reputation",
+        "meaning": "声誉",
+        "explanation": "Protect your reputation."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'reputation' mean?",
+      "options": [
+        "The opinion others h",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 466,
+    "level": "Advanced",
+    "root": "retain",
+    "phonetic": "/ rɪˈteɪn/",
+    "origin": "Oxford 5000",
+    "meaning": "保留",
+    "meaning_en": "To keep something.",
+    "description": "Retain important information.",
+    "examples": [
+      {
+        "word": "retain",
+        "meaning": "保留",
+        "explanation": "Retain important information."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'retain' mean?",
+      "options": [
+        "Opposite meaning",
+        "To keep something",
+        "Unrelated term",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 467,
+    "level": "Intermediate",
+    "root": "reveal",
+    "phonetic": "/ rɪˈviːl/",
+    "origin": "Oxford 5000",
+    "meaning": "揭示",
+    "meaning_en": "To make something known.",
+    "description": "She revealed the secret.",
+    "examples": [
+      {
+        "word": "reveal",
+        "meaning": "揭示",
+        "explanation": "She revealed the secret."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'reveal' mean?",
+      "options": [
+        "Opposite meaning",
+        "To make something kn",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 468,
+    "level": "Intermediate",
+    "root": "sacrifice",
+    "phonetic": "/ ˈsækrɪfaɪs/",
+    "origin": "Oxford 5000",
+    "meaning": "牺牲",
+    "meaning_en": "To give up something for something else.",
+    "description": "She sacrificed her career for family.",
+    "examples": [
+      {
+        "word": "sacrifice",
+        "meaning": "牺牲",
+        "explanation": "She sacrificed her career for family."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'sacrifice' mean?",
+      "options": [
+        "Opposite meaning",
+        "Wrong answer",
+        "To give up something",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 469,
+    "level": "Advanced",
+    "root": "scenario",
+    "phonetic": "/ sɪˈnɑːriəʊ/",
+    "origin": "Oxford 5000",
+    "meaning": "情景；设想",
+    "meaning_en": "A description of possible events.",
+    "description": "Consider the worst-case scenario.",
+    "examples": [
+      {
+        "word": "scenario",
+        "meaning": "情景；设想",
+        "explanation": "Consider the worst-case scenario."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'scenario' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "A description of pos"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 470,
+    "level": "Intermediate",
+    "root": "schedule",
+    "phonetic": "/ ˈʃedjuːl/",
+    "origin": "Oxford 5000",
+    "meaning": "时间表",
+    "meaning_en": "A planned list of times.",
+    "description": "Follow your schedule strictly.",
+    "examples": [
+      {
+        "word": "schedule",
+        "meaning": "时间表",
+        "explanation": "Follow your schedule strictly."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'schedule' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Wrong answer",
+        "A planned list of ti"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 471,
+    "level": "Intermediate",
+    "root": "sensitive",
+    "phonetic": "/ ˈsensətɪv/",
+    "origin": "Oxford 5000",
+    "meaning": "敏感的",
+    "meaning_en": "Aware of or easily affected.",
+    "description": "She is sensitive to noise.",
+    "examples": [
+      {
+        "word": "sensitive",
+        "meaning": "敏感的",
+        "explanation": "She is sensitive to noise."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'sensitive' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "Aware of or easily a"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 472,
+    "level": "Intermediate",
+    "root": "shift",
+    "phonetic": "/ ʃɪft/",
+    "origin": "Oxford 5000",
+    "meaning": "转变；轮班",
+    "meaning_en": "A change or period of work.",
+    "description": "There was a shift in attitude.",
+    "examples": [
+      {
+        "word": "shift",
+        "meaning": "转变；轮班",
+        "explanation": "There was a shift in attitude."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'shift' mean?",
+      "options": [
+        "Unrelated term",
+        "A change or period o",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 473,
+    "level": "Advanced",
+    "root": "simulate",
+    "phonetic": "/ ˈsɪmjuleɪt/",
+    "origin": "Oxford 5000",
+    "meaning": "模拟",
+    "meaning_en": "To imitate something.",
+    "description": "This program simulates real conditions.",
+    "examples": [
+      {
+        "word": "simulate",
+        "meaning": "模拟",
+        "explanation": "This program simulates real conditions."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'simulate' mean?",
+      "options": [
+        "Wrong answer",
+        "Unrelated term",
+        "To imitate something",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 474,
+    "level": "Intermediate",
+    "root": "specific",
+    "phonetic": "/ spɪˈsɪfɪk/",
+    "origin": "Oxford 5000",
+    "meaning": "具体的；特定的",
+    "meaning_en": "Exact and particular.",
+    "description": "Be specific about your goals.",
+    "examples": [
+      {
+        "word": "specific",
+        "meaning": "具体的；特定的",
+        "explanation": "Be specific about your goals."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'specific' mean?",
+      "options": [
+        "Wrong answer",
+        "Exact and particular",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 475,
+    "level": "Intermediate",
+    "root": "stable",
+    "phonetic": "/ ˈsteɪbl/",
+    "origin": "Oxford 5000",
+    "meaning": "稳定的",
+    "meaning_en": "Not likely to change.",
+    "description": "The economy is now stable.",
+    "examples": [
+      {
+        "word": "stable",
+        "meaning": "稳定的",
+        "explanation": "The economy is now stable."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'stable' mean?",
+      "options": [
+        "Wrong answer",
+        "Not likely to change",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 476,
+    "level": "Intermediate",
+    "root": "status",
+    "phonetic": "/ ˈsteɪtəs/",
+    "origin": "Oxford 5000",
+    "meaning": "地位；状态",
+    "meaning_en": "The position or condition.",
+    "description": "What is the current status?",
+    "examples": [
+      {
+        "word": "status",
+        "meaning": "地位；状态",
+        "explanation": "What is the current status?"
+      }
+    ],
+    "quiz": {
+      "question": "What does 'status' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "The position or cond",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 477,
+    "level": "Intermediate",
+    "root": "straightforward",
+    "phonetic": "/ ˌstreɪtˈfɔːrwərd/",
+    "origin": "Oxford 5000",
+    "meaning": "直接的",
+    "meaning_en": "Easy to do or understand.",
+    "description": "The instructions are straightforward.",
+    "examples": [
+      {
+        "word": "straightforward",
+        "meaning": "直接的",
+        "explanation": "The instructions are straightforward."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'straightforward' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "Easy to do or unders"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 478,
+    "level": "Advanced",
+    "root": "subsequent",
+    "phonetic": "/ ˈsʌbsɪkwənt/",
+    "origin": "Oxford 5000",
+    "meaning": "随后的",
+    "meaning_en": "Coming after something.",
+    "description": "Subsequent events proved him right.",
+    "examples": [
+      {
+        "word": "subsequent",
+        "meaning": "随后的",
+        "explanation": "Subsequent events proved him right."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'subsequent' mean?",
+      "options": [
+        "Coming after somethi",
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 479,
+    "level": "Advanced",
+    "root": "substantial",
+    "phonetic": "/ səbˈstænʃl/",
+    "origin": "Oxford 5000",
+    "meaning": "大量的；实质的",
+    "meaning_en": "Large in amount or importance.",
+    "description": "She made a substantial contribution.",
+    "examples": [
+      {
+        "word": "substantial",
+        "meaning": "大量的；实质的",
+        "explanation": "She made a substantial contribution."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'substantial' mean?",
+      "options": [
+        "Large in amount or i",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 480,
+    "level": "Intermediate",
+    "root": "temporary",
+    "phonetic": "/ ˈtempərəri/",
+    "origin": "Oxford 5000",
+    "meaning": "临时的",
+    "meaning_en": "Lasting for a short time only.",
+    "description": "This is only a temporary solution.",
+    "examples": [
+      {
+        "word": "temporary",
+        "meaning": "临时的",
+        "explanation": "This is only a temporary solution."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'temporary' mean?",
+      "options": [
+        "Wrong answer",
+        "Lasting for a short ",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 481,
+    "level": "Beginner",
+    "root": "tend",
+    "phonetic": "/ tend/",
+    "origin": "Oxford 5000",
+    "meaning": "倾向于；照料",
+    "meaning_en": "To usually do something.",
+    "description": "I tend to wake up early.",
+    "examples": [
+      {
+        "word": "tend",
+        "meaning": "倾向于；照料",
+        "explanation": "I tend to wake up early."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'tend' mean?",
+      "options": [
+        "To usually do someth",
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 482,
+    "level": "Intermediate",
+    "root": "tension",
+    "phonetic": "/ ˈtenʃn/",
+    "origin": "Oxford 5000",
+    "meaning": "紧张",
+    "meaning_en": "Mental or emotional strain.",
+    "description": "There was tension in the room.",
+    "examples": [
+      {
+        "word": "tension",
+        "meaning": "紧张",
+        "explanation": "There was tension in the room."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'tension' mean?",
+      "options": [
+        "Opposite meaning",
+        "Unrelated term",
+        "Mental or emotional ",
+        "Wrong answer"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 483,
+    "level": "Intermediate",
+    "root": "transfer",
+    "phonetic": "/ ˈtrænsfɜːr/",
+    "origin": "Oxford 5000",
+    "meaning": "转移；转学",
+    "meaning_en": "To move from one place to another.",
+    "description": "Transfer the files to the server.",
+    "examples": [
+      {
+        "word": "transfer",
+        "meaning": "转移；转学",
+        "explanation": "Transfer the files to the server."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'transfer' mean?",
+      "options": [
+        "Wrong answer",
+        "To move from one pla",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 484,
+    "level": "Advanced",
+    "root": "transparent",
+    "phonetic": "/ trænsˈpærənt/",
+    "origin": "Oxford 5000",
+    "meaning": "透明的",
+    "meaning_en": "Easy to see through or understand.",
+    "description": "Be transparent with your team.",
+    "examples": [
+      {
+        "word": "transparent",
+        "meaning": "透明的",
+        "explanation": "Be transparent with your team."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'transparent' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Easy to see through ",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 485,
+    "level": "Advanced",
+    "root": "undermine",
+    "phonetic": "/ ˌʌndərˈmaɪn/",
+    "origin": "Oxford 5000",
+    "meaning": "削弱",
+    "meaning_en": "To weaken gradually.",
+    "description": "Don't undermine others' confidence.",
+    "examples": [
+      {
+        "word": "undermine",
+        "meaning": "削弱",
+        "explanation": "Don't undermine others' confidence."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'undermine' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "To weaken gradually",
+        "Unrelated term"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 486,
+    "level": "Beginner",
+    "root": "uniform",
+    "phonetic": "/ ˈjuːnɪfɔːrm/",
+    "origin": "Oxford 5000",
+    "meaning": "统一的；制服",
+    "meaning_en": "The same throughout.",
+    "description": "Students wear a uniform.",
+    "examples": [
+      {
+        "word": "uniform",
+        "meaning": "统一的；制服",
+        "explanation": "Students wear a uniform."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'uniform' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "The same throughout"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 487,
+    "level": "Advanced",
+    "root": "utilize",
+    "phonetic": "/ ˈjuːtɪlaɪz/",
+    "origin": "Oxford 5000",
+    "meaning": "利用",
+    "meaning_en": "To make use of.",
+    "description": "Utilize all available resources.",
+    "examples": [
+      {
+        "word": "utilize",
+        "meaning": "利用",
+        "explanation": "Utilize all available resources."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'utilize' mean?",
+      "options": [
+        "Unrelated term",
+        "To make use of",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 488,
+    "level": "Intermediate",
+    "root": "valid",
+    "phonetic": "/ ˈvælɪd/",
+    "origin": "Oxford 5000",
+    "meaning": "有效的",
+    "meaning_en": "Logically acceptable.",
+    "description": "Make sure your passport is valid.",
+    "examples": [
+      {
+        "word": "valid",
+        "meaning": "有效的",
+        "explanation": "Make sure your passport is valid."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'valid' mean?",
+      "options": [
+        "Wrong answer",
+        "Logically acceptable",
+        "Unrelated term",
+        "Opposite meaning"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 489,
+    "level": "Advanced",
+    "root": "variable",
+    "phonetic": "/ ˈveəriəbl/",
+    "origin": "Oxford 5000",
+    "meaning": "变量；可变的",
+    "meaning_en": "Something that can change.",
+    "description": "Control the variables in the test.",
+    "examples": [
+      {
+        "word": "variable",
+        "meaning": "变量；可变的",
+        "explanation": "Control the variables in the test."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'variable' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "Something that can c"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 490,
+    "level": "Intermediate",
+    "root": "volunteer",
+    "phonetic": "/ ˌvɒlənˈtɪər/",
+    "origin": "Oxford 5000",
+    "meaning": "志愿者",
+    "meaning_en": "Someone who works without pay.",
+    "description": "She volunteers at the hospital.",
+    "examples": [
+      {
+        "word": "volunteer",
+        "meaning": "志愿者",
+        "explanation": "She volunteers at the hospital."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'volunteer' mean?",
+      "options": [
+        "Wrong answer",
+        "Someone who works wi",
+        "Opposite meaning",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 491,
+    "level": "Advanced",
+    "root": "vulnerable",
+    "phonetic": "/ ˈvʌlnərəbl/",
+    "origin": "Oxford 5000",
+    "meaning": "脆弱的",
+    "meaning_en": "Able to be hurt or harmed.",
+    "description": "Children are most vulnerable.",
+    "examples": [
+      {
+        "word": "vulnerable",
+        "meaning": "脆弱的",
+        "explanation": "Children are most vulnerable."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'vulnerable' mean?",
+      "options": [
+        "Opposite meaning",
+        "Able to be hurt or h",
+        "Wrong answer",
+        "Unrelated term"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 492,
+    "level": "Intermediate",
+    "root": "widespread",
+    "phonetic": "/ ˈwaɪdspred/",
+    "origin": "Oxford 5000",
+    "meaning": "广泛的",
+    "meaning_en": "Affecting many people or areas.",
+    "description": "There is widespread poverty.",
+    "examples": [
+      {
+        "word": "widespread",
+        "meaning": "广泛的",
+        "explanation": "There is widespread poverty."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'widespread' mean?",
+      "options": [
+        "Unrelated term",
+        "Wrong answer",
+        "Opposite meaning",
+        "Affecting many peopl"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 493,
+    "level": "Intermediate",
+    "root": "withdraw",
+    "phonetic": "/ wɪðˈdrɔː/",
+    "origin": "Oxford 5000",
+    "meaning": "撤回；提款",
+    "meaning_en": "To take back or remove.",
+    "description": "She withdrew money from the bank.",
+    "examples": [
+      {
+        "word": "withdraw",
+        "meaning": "撤回；提款",
+        "explanation": "She withdrew money from the bank."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'withdraw' mean?",
+      "options": [
+        "To take back or remo",
+        "Unrelated term",
+        "Opposite meaning",
+        "Wrong answer"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 494,
+    "level": "Advanced",
+    "root": "yield",
+    "phonetic": "/ jiːld/",
+    "origin": "Oxford 5000",
+    "meaning": "产生；屈服",
+    "meaning_en": "To produce or give way.",
+    "description": "This land yields good crops.",
+    "examples": [
+      {
+        "word": "yield",
+        "meaning": "产生；屈服",
+        "explanation": "This land yields good crops."
+      }
+    ],
+    "quiz": {
+      "question": "What does 'yield' mean?",
+      "options": [
+        "Wrong answer",
+        "Opposite meaning",
+        "Unrelated term",
+        "To produce or give w"
+      ],
+      "correctAnswer": 3
+    }
   }
 ];
